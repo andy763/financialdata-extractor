@@ -7,6 +7,19 @@ You will recieve the following input:
 
 Before we start, note: if we are trying to create a custom function for root/general URL, for example: google.com and say we are doing it for share price (excel_stock_updater.py) then go into the outstanding custom function area inside outstanding_shares_updater.py and see if we already created a google.com general URL function and learn how the outstanding shares were extracted, through what methods/ tools. Ofc it will not be identical but f.ex how to handle the website and cookies, permissions, etc. may remain the same. And vice versa as well. 
 
+Also note: of course the custom function shouldn't only work for the example URLs but for all URLs that start with the root URL. F.ex all URLs starting with https://aminagroup.com/ should work for the https://aminagroup.com/ custom function.
+
+## ⚠️ CRITICAL: CUSTOM FUNCTIONS MUST WORK FOR ALL URLs ⚠️
+Custom functions are created for an ENTIRE DOMAIN (root URL), NOT just specific example URLs. Your custom function MUST work for ALL URLs from that domain following the same pattern, not just the specific examples provided. The examples are ONLY for testing and reference - your implementation must be general enough to handle any URL from that domain.
+
+Example: If asked to create a custom function for valour.com, it must work for ALL these URLs:
+- https://valour.com/en/products/physical-bitcoin-carbon-neutral-usd
+- https://valour.com/en/products/valour-bitcoin-physical-staking
+- https://valour.com/en/products/valour-ethereum-physical-staking
+- And ANY other page on valour.com following the same pattern
+
+Do not create narrow functions that only handle specific example URLs. Consider the variety of page layouts and content structures across the entire domain.
+
 Also note: If I say Share price or Outstanding shares in the 1. input, never edit the code of the other say I say share price do not edit outstanding_shares_updater.py and if I say Outstanding shares in 1. do not edit excel_stock_updater.py.
 
 Also note: when dealing with share price functions never pick up NAV or AUM.

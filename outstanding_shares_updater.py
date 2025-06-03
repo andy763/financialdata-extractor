@@ -3,6 +3,7 @@ import logging
 import time
 import traceback
 import os
+import random
 from bs4 import BeautifulSoup
 from openpyxl import load_workbook
 from openpyxl.styles import Color, PatternFill
@@ -21,45 +22,45 @@ CUSTOM_EXTRACTORS_AVAILABLE = False
 extract_with_custom_function = None
 
 try:
-    # First try to import the improved extractors
-    from src.improved_custom_domain_extractors import (
-        extract_with_custom_function,
-        extract_valour_shares,
-        extract_grayscale_shares,
-        extract_vaneck_shares,
-        extract_vaneck_de_shares,
-        extract_wisdomtree_shares,
-        extract_proshares_shares,
-        get_custom_extractor
-    )
-    IMPROVED_EXTRACTORS_AVAILABLE = True
+    # Use the working original extractors (the improved ones have bugs with valour.com)
+    from src.custom_domain_extractors import extract_with_custom_function, get_custom_extractor
+    IMPROVED_EXTRACTORS_AVAILABLE = False
     CUSTOM_EXTRACTORS_AVAILABLE = True
-    logging.info("✅ Improved custom domain extractors loaded successfully")
+    logging.info("✅ Using working original custom domain extractors")
     
-    # Map domains to their extractors for direct access
-    DOMAIN_EXTRACTORS = {
-        'valour.com': extract_valour_shares,
-        'grayscale.com': extract_grayscale_shares,
-        'vaneck.com/de': extract_vaneck_de_shares,
-        'vaneck.com': extract_vaneck_shares,
-        'wisdomtree.eu': extract_wisdomtree_shares,
-        'proshares.com': extract_proshares_shares,
-    }
+    # We don't know exactly which extractors are available in the original module
+    DOMAIN_EXTRACTORS = {}
     
 except ImportError as e:
-    logging.warning(f"Could not import improved extractors: {e}")
+    logging.warning(f"Could not import original extractors: {e}")
     try:
-        # Fall back to original extractors
-        from src.custom_domain_extractors import extract_with_custom_function, get_custom_extractor
-        IMPROVED_EXTRACTORS_AVAILABLE = False
+        # Fall back to improved extractors (but they have known bugs)
+        from src.improved_custom_domain_extractors import (
+            extract_with_custom_function,
+            extract_valour_shares,
+            extract_grayscale_shares,
+            extract_vaneck_shares,
+            extract_vaneck_de_shares,
+            extract_wisdomtree_shares,
+            extract_proshares_shares,
+            get_custom_extractor
+        )
+        IMPROVED_EXTRACTORS_AVAILABLE = True
         CUSTOM_EXTRACTORS_AVAILABLE = True
-        logging.info("⚠️ Using original custom domain extractors")
+        logging.warning("⚠️ Using improved extractors (known to have bugs with valour.com)")
         
-        # We don't know exactly which extractors are available in the original module
-        DOMAIN_EXTRACTORS = {}
+        # Map domains to their extractors for direct access
+        DOMAIN_EXTRACTORS = {
+            'valour.com': extract_valour_shares,
+            'grayscale.com': extract_grayscale_shares,
+            'vaneck.com/de': extract_vaneck_de_shares,
+            'vaneck.com': extract_vaneck_shares,
+            'wisdomtree.eu': extract_wisdomtree_shares,
+            'proshares.com': extract_proshares_shares,
+        }
         
     except ImportError as e2:
-        logging.warning(f"Could not import original extractors: {e2}")
+        logging.warning(f"Could not import any extractors: {e2}")
         extract_with_custom_function = None
         get_custom_extractor = None
         IMPROVED_EXTRACTORS_AVAILABLE = False
@@ -354,22 +355,39 @@ def find_processable_rows_and_get_urls(ws, url_column_letter):
     """
     Dynamically finds ALL rows that have URLs in the specified column.
     No predetermined row limit - scans the entire worksheet.
+    
+    Also looks for fallback URLs in column Q if available.
     """
     processable_rows_urls = {}
+    fallback_urls = {}
     
     # Find the maximum row with data in the worksheet
     max_row = ws.max_row
     
     # Start from row 2 (skip header) and scan all rows
     for row_idx in range(2, max_row + 1):
-        coord = f"{url_column_letter}{row_idx}"
-        url_value = ws[coord].value
+        # Check primary URL in column P
+        primary_coord = f"{url_column_letter}{row_idx}"
+        primary_url_value = ws[primary_coord].value
         
         # Check if the cell has a URL (string starting with http)
-        if url_value and isinstance(url_value, str) and url_value.strip().lower().startswith(("http://", "https://")):
-            processable_rows_urls[row_idx] = url_value.strip()
+        if primary_url_value and isinstance(primary_url_value, str) and primary_url_value.strip().lower().startswith(("http://", "https://")):
+            processable_rows_urls[row_idx] = primary_url_value.strip()
+            
+            # Also check for fallback URL in column Q
+            fallback_column = chr(ord(url_column_letter) + 1)  # Next column after P is Q
+            fallback_coord = f"{fallback_column}{row_idx}"
+            
+            try:
+                fallback_url_value = ws[fallback_coord].value
+                if fallback_url_value and isinstance(fallback_url_value, str) and fallback_url_value.strip().lower().startswith(("http://", "https://")):
+                    fallback_urls[row_idx] = fallback_url_value.strip()
+                    print(f"Found fallback URL for row {row_idx}: {fallback_url_value.strip()}")
+            except Exception as e:
+                print(f"Error checking fallback URL in cell {fallback_coord}: {e}")
                 
-    return processable_rows_urls
+    print(f"Found {len(processable_rows_urls)} primary URLs and {len(fallback_urls)} fallback URLs")
+    return processable_rows_urls, fallback_urls
 
 def extract_outstanding_shares(driver, url):
     """
@@ -704,17 +722,32 @@ def extract_outstanding_shares_with_ai_fallback(driver, url):
     4. AI fallback
     """
     extraction_method = "unknown"
+    custom_extractor_attempted = False
     
     # Tier 1: Try improved custom domain-specific extractors first
     if extract_with_custom_function:
         try:
             # Check if we have a domain-specific extractor for this URL
             custom_result = extract_with_custom_function(driver, url)
+            custom_extractor_attempted = True
             
             # Handle the custom extractor result properly
             if custom_result:
-                if isinstance(custom_result, str):
-                    # Clean the result (remove commas, spaces, etc)
+                if isinstance(custom_result, dict):
+                    # Check for successful extraction
+                    if "outstanding_shares" in custom_result:
+                        extraction_method = "improved_custom" if IMPROVED_EXTRACTORS_AVAILABLE else "custom"
+                        logging.info(f"✅ {extraction_method.title()} extractor succeeded for {url}: {custom_result['outstanding_shares']}")
+                        custom_result["method"] = extraction_method
+                        return custom_result
+                    elif "error" in custom_result:
+                        # Custom extractor failed, but don't return error yet - try other methods
+                        logging.warning(f"Custom extractor failed for {url}: {custom_result['error']}")
+                    else:
+                        # Unexpected format
+                        logging.warning(f"Custom extractor returned unexpected format: {custom_result}")
+                elif isinstance(custom_result, str):
+                    # Direct string result - clean and validate
                     cleaned_result = custom_result.replace(',', '').replace(' ', '')
                     
                     # If the cleaned result is numeric, it's valid
@@ -725,15 +758,9 @@ def extract_outstanding_shares_with_ai_fallback(driver, url):
                         extraction_method = "improved_custom" if IMPROVED_EXTRACTORS_AVAILABLE else "custom"
                         logging.info(f"✅ {extraction_method.title()} extractor succeeded for {url}: {custom_result}")
                         return {"outstanding_shares": custom_result, "method": extraction_method}
-                elif isinstance(custom_result, dict) and "outstanding_shares" in custom_result:
-                    # Some custom extractors might return a dictionary with the shares
-                    extraction_method = "improved_custom" if IMPROVED_EXTRACTORS_AVAILABLE else "custom"
-                    logging.info(f"✅ {extraction_method.title()} extractor succeeded for {url}: {custom_result['outstanding_shares']}")
-                    custom_result["method"] = extraction_method
-                    return custom_result
-                
-                # Log if result was returned but not in expected format
-                logging.info(f"Custom extractor returned non-numeric result: {custom_result}")
+                else:
+                    # Log if result was returned but not in expected format
+                    logging.warning(f"Custom extractor returned unexpected type: {type(custom_result)} - {custom_result}")
         except Exception as e:
             logging.warning(f"Custom extractor error for {url}: {e}")
     
@@ -778,7 +805,18 @@ def extract_outstanding_shares_with_ai_fallback(driver, url):
     # All methods failed
     extraction_method = "failed"
     logging.error(f"❌ All extraction methods failed for {url}")
-    return {"error": "All extraction methods failed", "method": extraction_method}
+    
+    # If we attempted a custom extractor, mark that in the return value
+    # This allows the main function to know when a custom extractor specifically failed
+    result = {
+        "error": "All extraction methods failed", 
+        "method": extraction_method
+    }
+    
+    if custom_extractor_attempted:
+        result["custom_extractor_used"] = True
+        
+    return result
 
 def is_blue_cell(cell):
     """
@@ -893,6 +931,9 @@ def main():
     """
     print("Outstanding Shares Updater Starting...")
     
+    # Set logging level to INFO to see more detailed logs
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    
     # Log which custom extractors are available
     if IMPROVED_EXTRACTORS_AVAILABLE:
         print("✅ Using improved custom domain extractors for:")
@@ -984,8 +1025,9 @@ def main():
             return
             
         # Find all rows to process (in column P) - dynamically detect all rows with URLs
-        processable_rows_urls = find_processable_rows_and_get_urls(ws, "P")
-        print(f"Found {len(processable_rows_urls)} rows to process")
+        # Also get fallback URLs from column Q
+        processable_rows_urls, fallback_urls = find_processable_rows_and_get_urls(ws, "P")
+        print(f"Found {len(processable_rows_urls)} rows to process with {len(fallback_urls)} fallback URLs")
         
         # Set up the WebDriver with improved options
         options = webdriver.ChromeOptions()
@@ -1019,13 +1061,45 @@ def main():
                     print("Detected SIX Group URL, using specialized extractor")
                     shares_data = extract_sixgroup_shares(driver, primary_url)
                 else:
-                    # Use the generic extractor for other URLs
+                    # Check if we have a custom domain extractor
+                    custom_domain = False
+                    if extract_with_custom_function:
+                        # Check if we're specifically dealing with known domains that need special handling
+                        known_domains = ["tradingview.com", "valour.com"]
+                        if any(domain in primary_url.lower() for domain in known_domains):
+                            custom_domain = True
+                            print(f"  Detected URL with known custom domain: {primary_url}")
+                    
+                    # Use the generic extractor for all URLs (which includes custom domain extractors)
                     shares_data = extract_outstanding_shares_with_ai_fallback(driver, primary_url)
+                    
+                    # Print additional debug info for custom extractor errors
+                    if "error" in shares_data:
+                        if shares_data.get("custom_extractor_used", False):
+                            print(f"  Custom domain extractor failed: {shares_data['error']}")
+                        if custom_domain:
+                            print(f"  Known custom domain extraction failed: {shares_data['error']}")
                 
                 # If primary URL failed, try fallback URL from column Q (if it exists)
                 if "error" in shares_data:
                     print(f"  Primary URL failed: {shares_data['error']}")
-                    fallback_url = ws[f"Q{row_idx}"].value
+                    
+                    # Get fallback URL from our pre-populated dictionary
+                    fallback_url = fallback_urls.get(row_idx)
+                    
+                    if fallback_url:
+                        print(f"  Using pre-loaded fallback URL for row {row_idx}: {fallback_url}")
+                    else:
+                        # Try to get it directly from the cell as a backup method
+                        try:
+                            fallback_cell = ws[f"Q{row_idx}"]
+                            if fallback_cell and fallback_cell.value:
+                                fallback_url = str(fallback_cell.value).strip()
+                                print(f"  Found fallback URL in cell Q{row_idx}: {fallback_url}")
+                            else:
+                                print(f"  No fallback URL found in cell Q{row_idx} (empty or null)")
+                        except Exception as cell_err:
+                            print(f"  Error accessing fallback URL from cell Q{row_idx}: {str(cell_err)}")
                     
                     if fallback_url and isinstance(fallback_url, str) and fallback_url.startswith(("http://", "https://")):
                         print(f"  Trying fallback URL from column Q: {fallback_url}")
@@ -1036,23 +1110,29 @@ def main():
                             print("  Detected SIX Group URL for fallback, using specialized extractor")
                             shares_data = extract_sixgroup_shares(driver, fallback_url)
                         else:
-                            # Use the generic extractor for other URLs
+                            # Use the generic extractor for other URLs (which includes custom domain extractors)
                             shares_data = extract_outstanding_shares_with_ai_fallback(driver, fallback_url)
             except Exception as e:
                 print(f"  Error processing URLs for row {row_idx}: {str(e)}")
                 traceback.print_exc()
                 shares_data = {"error": f"Exception: {str(e)}"}
                 
-                # Try to reset the browser if we encounter issues
-                try:
-                    print("  Attempting to reset the browser...")
-                    driver.quit()
-                    driver = webdriver.Chrome(
-                        service=ChromeService(ChromeDriverManager().install()),
-                        options=options
-                    )
-                except Exception as reset_error:
-                    print(f"  Failed to reset browser: {str(reset_error)}")
+                            # Log detailed information about what happened with the URLs
+            print(f"  Primary URL: {primary_url}")
+            print(f"  Fallback URL: {ws[f'Q{row_idx}'].value if ws[f'Q{row_idx}'].value else 'None'}")
+            print(f"  Used URL: {used_url}")
+            print(f"  Result: {'Success' if 'outstanding_shares' in shares_data else 'Error: ' + shares_data.get('error', 'Unknown error')}")
+            
+            # Try to reset the browser if we encounter issues
+            try:
+                print("  Attempting to reset the browser...")
+                driver.quit()
+                driver = webdriver.Chrome(
+                    service=ChromeService(ChromeDriverManager().install()),
+                    options=options
+                )
+            except Exception as reset_error:
+                print(f"  Failed to reset browser: {str(reset_error)}")
             
             # Track success/failure, domain errors, and extraction methods
             if "error" in shares_data:
@@ -1077,8 +1157,13 @@ def main():
                 print(f"  Error: {shares_data['error']}")
                 preserve_cell_color_and_set_value(cell, f"Error: {shares_data['error']}")
             else:
-                print(f"  Found outstanding shares: {shares_data['outstanding_shares']} (using {used_url})")
-                preserve_cell_color_and_set_value(cell, shares_data['outstanding_shares'])
+                # Check if the result has a note about being estimated
+                if "note" in shares_data:
+                    print(f"  Found outstanding shares: {shares_data['outstanding_shares']} (using {used_url}) - Note: {shares_data['note']}")
+                    preserve_cell_color_and_set_value(cell, f"{shares_data['outstanding_shares']} ({shares_data['note']})")
+                else:
+                    print(f"  Found outstanding shares: {shares_data['outstanding_shares']} (using {used_url})")
+                    preserve_cell_color_and_set_value(cell, shares_data['outstanding_shares'])
             
             # Save after each update in case of crash
             try:
@@ -1317,6 +1402,17 @@ def test_fallback_urls():
                     print(f"  Trying fallback URL: {fallback_url}")
                     used_url = fallback_url
                     
+                    # Log if we're switching from a known custom domain to a different URL type
+                    if extract_with_custom_function:
+                        known_custom_domains = ["tradingview.com", "valour.com"]
+                        from_domain = next((domain for domain in known_custom_domains if domain in primary_url.lower()), None)
+                        to_domain = next((domain for domain in known_custom_domains if domain in fallback_url.lower()), None)
+                        
+                        if from_domain:
+                            print(f"  Switching from custom domain {from_domain} to fallback URL: {fallback_url}")
+                        if to_domain:
+                            print(f"  Fallback URL is using custom domain: {to_domain}")
+                    
                     try:
                         # Check if it's a SIX Group URL
                         if "six-group.com" in fallback_url.lower():
@@ -1370,7 +1466,9 @@ def test_custom_domain_extractors():
         # WisdomTree URLs 
         "https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unleveraged-etps/cryptocurrencies/wisdomtree-bitcoin",
         # ProShares URLs
-        "https://www.proshares.com/our-etfs/strategic/bito"
+        "https://www.proshares.com/our-etfs/strategic/bito",
+        # TradingView URLs
+        "https://www.tradingview.com/symbols/XETR-CDOT/"
     ]
     
     options = webdriver.ChromeOptions()

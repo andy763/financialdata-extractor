@@ -1,0 +1,82 @@
+OUTSTANDING SHARES EXTRACTION LOG
+==================================================
+Run Date: 2025-05-31 20:24:16
+Script: outstanding_shares_updater.py
+
+OUTSTANDING SHARES ERRORS BY DOMAIN:
+----------------------------------------
+https://aifmgroup.com/ errors: 1
+https://am.eu.rothschildandco.com/ errors: 2
+https://aminagroup.com/ errors: 5
+https://amplifyetfs.com/ errors: 1
+https://augmentasicav.com/ errors: 8
+https://bitcap.com/ errors: 4
+https://bitwiseinvestments.com/ errors: 1
+https://cdn.21shares.com/ errors: 3
+https://coinshares.com/ errors: 12
+https://deutschedigitalassets.com/ errors: 5
+https://doc.morningstar.com/ errors: 1
+https://etc-group.com/ errors: 2
+https://europe.ark-funds.com/ errors: 1
+https://evolveetfs.com/ errors: 2
+https://finanzen-crypto-etp.coinshares.com/ errors: 1
+https://finexetf.com/ errors: 1
+https://fondswelt.hansainvest.com/ errors: 1
+https://hashdex.com/ errors: 1
+https://horizonkinetics.com/ errors: 1
+https://idxfunds.com/ errors: 1
+https://issuance.swiss/ errors: 2
+https://markets.businessinsider.com/ errors: 2
+https://matrixportam.com/ errors: 2
+https://melanion.com/ errors: 2
+https://postera.io/ errors: 1
+https://qrasset.com.br/ errors: 4
+https://quantifyfunds.com/ errors: 2
+https://seb.se/ errors: 1
+https://valour.com/ errors: 13
+https://wavegp.com/ errors: 1
+https://www-aix-kz.s3.eu-central-1.amazonaws.com/ errors: 1
+https://www.3commacapital.com/ errors: 2
+https://www.abraxascm.com/ errors: 2
+https://www.betashares.com.au/ errors: 3
+https://www.bny.com/ errors: 1
+https://www.calamos.com/ errors: 3
+https://www.compamfund.com/ errors: 1
+https://www.fidelity.ca/ errors: 1
+https://www.fidelity.lu/ errors: 1
+https://www.hal-privatbank.com/ errors: 1
+https://www.incrementum.li/ errors: 2
+https://www.invesco.com/ errors: 5
+https://www.itnow.com.br/ errors: 1
+https://www.lafv.li/ errors: 9
+https://www.monochrome.au/ errors: 1
+https://www.morningstar.be/ errors: 2
+https://www.morningstar.co.uk/ errors: 1
+https://www.morningstar.fr/ errors: 5
+https://www.ninepoint.com/ errors: 1
+https://www.profunds.com/ errors: 3
+https://www.proshares.com/ errors: 5
+https://www.rexshares.com/ errors: 5
+https://www.sygnum.com/ errors: 1
+https://www.tobam.fr/ errors: 2
+https://www.topfund.nl/ errors: 2
+https://www.vaneck.com/ errors: 1
+https://www.vestfin.com/ errors: 1
+https://www.wisdomtree.eu/ errors: 1
+
+EXTRACTION METHOD STATISTICS:
+------------------------------
+Custom: 54 (14.4%)
+Sixgroup: 49 (13.1%)
+Traditional: 43 (11.5%)
+Ai Fallback: 49 (13.1%)
+Failed: 148 (39.5%)
+Unknown: 32 (8.5%)
+
+SUMMARY:
+----------
+Total URLs processed: 375
+Blue cells (excluded from success rate): 0
+Successful extractions: 227
+Effective URLs for success calculation: 375
+Adjusted success rate: 227/375 = 60.53%

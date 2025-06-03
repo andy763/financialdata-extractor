@@ -1,0 +1,175 @@
+STOCK PRICES EXTRACTION LOG
+==================================================
+Run Date: 2025-06-03 05:47:47
+Script: excel_stock_updater.py
+
+SHARE PRICE ERRORS BY DOMAIN (RANKED - MOST ERRORS FIRST):
+------------------------------------------------------------
+  9 errors: https://www.grayscale.com/
+    └─ https://www.grayscale.com/funds/grayscale-chainlink-trust
+    └─ https://www.grayscale.com/funds/grayscale-digital-large-cap-fund
+    └─ https://www.grayscale.com/funds/grayscale-filecoin-trust
+    └─ https://www.grayscale.com/funds/grayscale-horizen-trust
+    └─ https://www.grayscale.com/funds/grayscale-litecoin-trust/
+    └─ ... and 4 more URLs
+
+  3 errors: https://bitcap.com/
+    └─ https://bitcap.com/en/bit-crypto-opportunities-institutional-en/?confirmed=1
+    └─ https://bitcap.com/en/bit-global-crypto-leaders-private/?confirmed=1
+    └─ https://bitcap.com/en/global-leaders-ucits-professional-en/
+
+  2 errors: https://etf.dws.com/
+    └─ https://etf.dws.com/en-ch/etc/CH1315732250-xtrackers-galaxy-physical-bitcoin-etc-securities/
+    └─ https://etf.dws.com/en-fi/etc/CH1315732268-xtrackers-galaxy-physical-ethereum-etc-securities/
+
+  2 errors: https://am.eu.rothschildandco.com/
+    └─ https://am.eu.rothschildandco.com/en/our-funds/r-co-thematic-blockchain-global-equity/
+    └─ https://am.eu.rothschildandco.com/en/our-funds/r-co-thematic-blockchain-global-equity/
+
+  2 errors: https://www.tobam.fr/
+    └─ https://www.tobam.fr/wp-content/docs/PROSPECTUS/fr/PROSPECTUS_BTC-Linked-&-Blockchain_fr.pdf
+    └─ https://www.tobam.fr/wp-content/docs/PROSPECTUS/fr/PROSPECTUS_BTC-Linked-&-Blockchain_fr.pdf
+
+  2 errors: https://www.incrementum.li/
+    └─ https://www.incrementum.li/en/investment-funds/incrementum-crypto-gold-fund/
+    └─ https://www.incrementum.li/en/investment-funds/incrementum-crypto-gold-fund/
+
+  2 errors: https://www.topfund.nl/
+    └─ https://www.topfund.nl/crypto-fonds
+    └─ https://www.topfund.nl/crypto-fonds
+
+  2 errors: https://www.3commacapital.com/
+    └─ https://www.3commacapital.com/pt/fundos-de-investimento/global-crypto-fund/
+    └─ https://www.3commacapital.com/pt/fundos-de-investimento/global-crypto-fund/
+
+  1 errors: https://www.invesco.com/
+    └─ https://www.invesco.com/uk/en/financial-products/etfs/invesco-physical-bitcoin.html?msockid=3c4bdec1933068c13047ca3c92f2693e
+
+  1 errors: https://www.hashdex.com/
+    └─ https://www.hashdex.com/en-KY/products/hdexbh
+
+  1 errors: https://www.franklintempleton.com/
+    └─ https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/39639/SINGLCLASS/franklin-bitcoin-etf/EZBC
+
+  1 errors: https://www.ftportfolios.com/
+    └─ https://www.ftportfolios.com/retail/etf/etfsummary.aspx?Ticker=CRPT
+
+  1 errors: https://bitwiseinvestments.com/
+    └─ https://bitwiseinvestments.com/crypto-funds/bitw ; https://bitwiseinvestments.com/newsroom/nyse-arca-files-form-19b-4-to-uplist-bitw-as-an-etf ; https://www.sec.gov/Archives/edgar/data/1723788/000119312522045344/d265852d1012ga.htm
+
+  1 errors: https://www.vestfin.com/
+    └─ https://www.vestfin.com/products/bitcoin-fund ; https://www.sec.gov/Archives/edgar/data/1396092/000138713121008673/cboe-497_081721.html
+
+  1 errors: https://www.yieldmaxetfs.com/
+    └─ https://www.yieldmaxetfs.com/lfgy/prospectus
+
+  1 errors: https://issuance.swiss/
+    └─ https://issuance.swiss/figment_solf/
+
+  1 errors: https://deutschedigitalassets.com/
+    └─ https://deutschedigitalassets.com/products/etp/heli-dda-heliad-dynamic-blockchain-etp/
+
+  1 errors: https://melanion.com/
+    └─ https://melanion.com/bitcoin-equities-etf/
+
+  1 errors: https://www.bny.com/
+    └─ https://www.bny.com/investments/uk/en/institutional/fund/bny-mellon-blockchain-innovation-fund-usd-e-acc-ie00bhprq173/
+
+  1 errors: https://postera.io/
+    └─ https://postera.io/de/investment/postera-fund-crypto-i-fur-anleger-in-deutschland/
+
+  1 errors: https://www.sygnum.com/
+    └─ https://www.sygnum.com/asset-management/crypto-yield-fund/
+
+  1 errors: https://www.abraxascm.com/
+    └─ https://www.abraxascm.com/alpha-bitcoin-fund/
+
+  1 errors: https://aifmgroup.com/
+    └─ https://aifmgroup.com/app/uploads/2021/05/Go-Blockchain-Fund-Prospectus-210504.pdf
+
+  1 errors: https://europe.ark-funds.com/
+    └─ https://europe.ark-funds.com/funds/index-etfs/digital-payments-economy/#registration
+
+  1 errors: https://aix.kz/
+    └─ https://aix.kz/issuers/ix-bitcoin-spc-limited-btc/
+
+  1 errors: https://qrasset.com.br/
+    └─ https://qrasset.com.br/qdfi11#cesta
+
+  1 errors: https://wavegp.com/
+    └─ https://wavegp.com/funds/cryptocurrency-index-fund/
+
+  1 errors: https://doc.morningstar.com/
+    └─ https://doc.morningstar.com/document/289781f7197daec8e75fd7092cece857.msdoc/?key=8e4aae5472d794c04c8d626a6392f8dad15671ad50f836cb
+
+  1 errors: https://www.fidelity.ca/
+    └─ https://www.fidelity.ca/en/products/etfs/fbtc/ ; prospectus: https://www.fidelity.ca/content/dam/fidelity/en/documents/aif-and-simplified-prospectus/prospectus_etf.pdf
+
+
+INVALID PRICE VALUES BY DOMAIN (RANKED - MOST INVALID PRICES FIRST):
+---------------------------------------------------------------------------
+Total invalid prices found: 10
+(These are likely incorrect - .0 values, dates, percentages, fund metadata, etc. instead of actual prices)
+(Includes ALL .0 values: 24.00, 30.0, etc. - Excludes blue cells)
+
+  4 invalid prices: https://etfs.grayscale.com/
+    └─ https://etfs.grayscale.com/gbtc
+    └─ https://etfs.grayscale.com/btc
+    └─ https://etfs.grayscale.com/ethe
+    └─ https://etfs.grayscale.com/ethe
+
+  2 invalid prices: https://www.nasdaq.com/
+    └─ https://www.nasdaq.com/market-activity/stocks/cxbtf
+    └─ https://www.nasdaq.com/market-activity/stocks/cxbtf
+
+  2 invalid prices: https://www.csopasset.com/
+    └─ https://www.csopasset.com/en/products/hk-btcfut#
+    └─ https://www.csopasset.com/en/products/hk-btcfut#
+
+  1 invalid prices: https://institutional.fidelity.com/
+    └─ https://institutional.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FETH
+
+  1 invalid prices: https://www.wisdomtree.eu/
+    └─ https://www.wisdomtree.eu/en-gb/etfs/thematic/wblk---wisdomtree-blockchain-ucits-etf---usd-acc
+
+
+BLUE CELLS SECTION (EXCLUDED FROM SUCCESS RATE):
+--------------------------------------------------
+Total blue cells: 27
+Blue cells successful: 26
+Blue cells with errors: 1
+Blue cells with invalid prices: 0
+Blue cells success rate: 26/27 = 96.30%
+
+Blue cell details:
+  Row 97: ❌ Error - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 98: ✅ Success - https://www.wisdomtree.eu/de-ch/products/ucits-etfs-unlevera...
+  Row 99: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 100: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 101: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 102: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 103: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 104: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 105: ✅ Success - https://www.wisdomtree.eu/de-de/products/ucits-etfs-unlevera...
+  Row 106: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  ... and 17 more blue cells
+
+NORMAL CELLS SECTION (USED FOR SUCCESS RATE):
+--------------------------------------------------
+Total normal cells: 349
+Normal cells successful: 267
+Normal cells with errors: 72
+Normal cells with invalid prices (treated as errors): 10
+Normal cells success rate: 267/349 = 76.50%
+(Success rate excludes both errors and invalid prices)
+
+SUMMARY:
+----------
+Total URLs processed: 376
+Blue cells (excluded from success rate): 27
+Normal cells (used for success rate): 349
+Successful extractions (normal cells only): 267
+URLs with invalid prices: 10
+Traditional errors: 45
+FINAL SUCCESS RATE: 267/349 = 76.50%
+(Excludes blue cells, traditional errors, AND invalid prices)
