@@ -1,0 +1,21 @@
+STOCK PRICE EXTRACTION ANALYSIS
+==================================================
+Analysis Date: 2025-05-27 17:50:07
+
+DETAILED STATISTICS:
+--------------------
+Total rows analyzed: 379
+Blue cells (excluded): 76
+Purple cells (wrong figure): 25
+Red cells (formula/parse error): 23
+Orange cells (.0 rounding error): 16
+Dark green cells (AI wrong): 3
+White/uncoloured cells (correct): 236
+
+SUCCESS RATE CALCULATION:
+--------------------
+Total incorrect cells: 67
+Effective total (excluding blue cells): 303
+Success rate: 77.89%
+Formula: (effective_total - incorrect_cells) / effective_total
+       = (303 - 67) / 303

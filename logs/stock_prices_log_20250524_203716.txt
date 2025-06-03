@@ -1,0 +1,62 @@
+STOCK PRICES EXTRACTION LOG
+==================================================
+Run Date: 2025-05-24 20:37:16
+Script: excel_stock_updater.py
+
+SHARE PRICE ERRORS BY DOMAIN:
+------------------------------
+https://aifmgroup.com/ errors: 1
+https://aix.kz/ errors: 1
+https://augmentasicav.com/ errors: 8
+https://bitcap.com/ errors: 3
+https://bitwiseinvestments.com/ errors: 1
+https://deutschedigitalassets.com/ errors: 1
+https://doc.morningstar.com/ errors: 1
+https://etf.dws.com/ errors: 2
+https://europe.ark-funds.com/ errors: 1
+https://finexetf.com/ errors: 1
+https://fortunafunds.com/ errors: 1
+https://issuance.swiss/ errors: 2
+https://markets.businessinsider.com/ errors: 2
+https://melanion.com/ errors: 1
+https://money.tmx.com/ errors: 1
+https://postera.io/ errors: 1
+https://qrasset.com.br/ errors: 2
+https://seb.se/ errors: 1
+https://wavegp.com/ errors: 1
+https://www.3commacapital.com/ errors: 2
+https://www.3iq.io/ errors: 4
+https://www.abraxascm.com/ errors: 2
+https://www.bny.com/ errors: 1
+https://www.boerse-stuttgart.de/ errors: 2
+https://www.compamfund.com/ errors: 1
+https://www.dasinvestment.com/ errors: 1
+https://www.fidelity.ca/ errors: 1
+https://www.franklintempleton.com/ errors: 3
+https://www.franklintempleton.lu/ errors: 1
+https://www.grayscale.com/ errors: 9
+https://www.hashdex.com/ errors: 1
+https://www.incrementum.li/ errors: 2
+https://www.invesco.com/ errors: 2
+https://www.itnow.com.br/ errors: 1
+https://www.lafv.li/ errors: 10
+https://www.morningstar.be/ errors: 3
+https://www.morningstar.fr/ errors: 5
+https://www.nasdaq.com/ errors: 1
+https://www.purposeinvest.com/ errors: 1
+https://www.sygnum.com/ errors: 1
+https://www.tobam.fr/ errors: 2
+https://www.topfund.nl/ errors: 2
+https://www.union-investment.de/ errors: 1
+https://www.vaneck.com.au/ errors: 1
+https://www.vestfin.com/ errors: 1
+https://www.wisdomtree.eu/ errors: 11
+https://www.yieldmaxetfs.com/ errors: 1
+
+SUMMARY:
+----------
+Total URLs processed: 374
+Blue cells (excluded from success rate): 26
+Successful extractions: 269
+Effective URLs for success calculation: 348
+Adjusted success rate: 269/348 = 77.30%

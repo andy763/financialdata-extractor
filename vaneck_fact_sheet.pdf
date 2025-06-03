@@ -1,0 +1,2035 @@
+
+
+    <!DOCTYPE html>
+<html lang="en-DE">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript">
+        var swipeText = "Swipe<br />to view <br /> full data<br /><span class='fa fa-arrows-h'></span>";
+        var isAcademyProgressEnabled = false;
+    </script>
+    
+
+    
+    <title>VanEck Germany | ETFs &amp; Mutual Funds</title>
+    <meta property="og:title" content="VanEck Germany | ETFs &amp; Mutual Funds" />
+
+            <meta name="description" content="VanEck was founded in 1955 and stands for intelligent, forward-looking investment strategies. Exposure to various asset classes via ETFs and mutual funds." />
+            <meta property="og:description" content="VanEck was founded in 1955 and stands for intelligent, forward-looking investment strategies. Exposure to various asset classes via ETFs and mutual funds." />
+            <meta name="keywords" content="van eck, van eck global, vaneck,  vaneck global, investment management, etfs, hard assets, precious metals, emerging markets, mutual funds" />
+            <meta property="og:type" content="website" />
+            <meta name="robots" content="index,follow" />
+            <meta property="og:url" content="https://www.vaneck.com/de/en" />
+            <meta property="og:locale" content="en_DE" />
+            <meta property="idio:investor_type" content="retail" />
+            <meta property="idio:investor_type" content="pi" />
+            <meta property="idio:content_id" content="4294" />
+            <meta property="article:published_time" content="2017-10-27T06:53:48.000-04:00" />
+            <meta property="idio:category_name" content="Home Page" />
+            <meta property="idio:available_language" content="en" />
+            <meta property="idio:available_language" content="de" />
+            <meta property="idio:available_language" content="fr" />
+            <meta property="idio:available_language" content="nl" />
+            <meta property="idio:available_language" content="it" />
+
+
+
+
+            <meta property="og:locale:alternate" content="en_DE" />
+            <meta property="og:locale:alternate" content="de_DE" />
+            <meta property="og:locale:alternate" content="en_AU" />
+            <meta property="og:locale:alternate" content="en_US" />
+            <meta property="og:locale:alternate" content="en_AT" />
+            <meta property="og:locale:alternate" content="de_AT" />
+            <meta property="og:locale:alternate" content="en_BE" />
+            <meta property="og:locale:alternate" content="nl_BE" />
+            <meta property="og:locale:alternate" content="fr_BE" />
+            <meta property="og:locale:alternate" content="en_CH" />
+            <meta property="og:locale:alternate" content="de_CH" />
+            <meta property="og:locale:alternate" content="it_CH" />
+            <meta property="og:locale:alternate" content="fr_CH" />
+            <meta property="og:locale:alternate" content="en_DK" />
+            <meta property="og:locale:alternate" content="en_ES" />
+            <meta property="og:locale:alternate" content="es_ES" />
+            <meta property="og:locale:alternate" content="en_FI" />
+            <meta property="og:locale:alternate" content="en_FR" />
+            <meta property="og:locale:alternate" content="fr_FR" />
+            <meta property="og:locale:alternate" content="en_IE" />
+            <meta property="og:locale:alternate" content="en_IT" />
+            <meta property="og:locale:alternate" content="it_IT" />
+            <meta property="og:locale:alternate" content="en_LI" />
+            <meta property="og:locale:alternate" content="en_LU" />
+            <meta property="og:locale:alternate" content="de_LU" />
+            <meta property="og:locale:alternate" content="fr_LU" />
+            <meta property="og:locale:alternate" content="en_NL" />
+            <meta property="og:locale:alternate" content="nl_NL" />
+            <meta property="og:locale:alternate" content="en_NO" />
+            <meta property="og:locale:alternate" content="en_PL" />
+            <meta property="og:locale:alternate" content="pl_PL" />
+            <meta property="og:locale:alternate" content="en_PT" />
+            <meta property="og:locale:alternate" content="en_SE" />
+            <meta property="og:locale:alternate" content="en_GB" />
+
+            <meta property="og:site_name" content="VanEck Germany | ETFs &amp; Mutual Funds" />
+
+            <meta name="twitter:creator" content="VanEck" />
+
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:description" content="VanEck was founded in 1955 and stands for intelligent, forward-looking investment strategies. Exposure to various asset classes via ETFs and mutual funds." />
+            <meta name="twitter:title" content="VanEck Germany | ETFs &amp; Mutual Funds" />
+
+            <meta name="twitter:site_name" content="VanEck Germany | ETFs &amp; Mutual Funds" />
+
+
+    <link rel="alternate" hreflang="en-DE" href="https://www.vaneck.com/de/en/" />
+    <link rel="alternate" hreflang="de-DE" href="https://www.vaneck.com/de/de/" />
+    <link rel="alternate" hreflang="en-AU" href="https://www.vaneck.com.au/" />
+    <link rel="alternate" hreflang="en-US" href="https://www.vaneck.com/us/en/" />
+    <link rel="alternate" hreflang="en-AT" href="https://www.vaneck.com/at/en/" />
+    <link rel="alternate" hreflang="de-AT" href="https://www.vaneck.com/at/de/" />
+    <link rel="alternate" hreflang="en-BE" href="https://www.vaneck.com/be/en/" />
+    <link rel="alternate" hreflang="nl-BE" href="https://www.vaneck.com/be/nl/" />
+    <link rel="alternate" hreflang="fr-BE" href="https://www.vaneck.com/be/fr/" />
+    <link rel="alternate" hreflang="en-CH" href="https://www.vaneck.com/ch/en/" />
+    <link rel="alternate" hreflang="de-CH" href="https://www.vaneck.com/ch/de/" />
+    <link rel="alternate" hreflang="it-CH" href="https://www.vaneck.com/ch/it/" />
+    <link rel="alternate" hreflang="fr-CH" href="https://www.vaneck.com/ch/fr/" />
+    <link rel="alternate" hreflang="en-DK" href="https://www.vaneck.com/dk/en/" />
+    <link rel="alternate" hreflang="en-ES" href="https://www.vaneck.com/es/en/" />
+    <link rel="alternate" hreflang="es-ES" href="https://www.vaneck.com/es/es/" />
+    <link rel="alternate" hreflang="en-FI" href="https://www.vaneck.com/fi/en/" />
+    <link rel="alternate" hreflang="en-FR" href="https://www.vaneck.com/fr/en/" />
+    <link rel="alternate" hreflang="fr-FR" href="https://www.vaneck.com/fr/fr/" />
+    <link rel="alternate" hreflang="en-IE" href="https://www.vaneck.com/ie/en/" />
+    <link rel="alternate" hreflang="en-IT" href="https://www.vaneck.com/it/en/" />
+    <link rel="alternate" hreflang="it-IT" href="https://www.vaneck.com/it/it/" />
+    <link rel="alternate" hreflang="en-LI" href="https://www.vaneck.com/li/en/" />
+    <link rel="alternate" hreflang="en-LU" href="https://www.vaneck.com/lu/en/" />
+    <link rel="alternate" hreflang="de-LU" href="https://www.vaneck.com/lu/de/" />
+    <link rel="alternate" hreflang="fr-LU" href="https://www.vaneck.com/lu/fr/" />
+    <link rel="alternate" hreflang="en-NL" href="https://www.vaneck.com/nl/en/" />
+    <link rel="alternate" hreflang="nl-NL" href="https://www.vaneck.com/nl/nl/" />
+    <link rel="alternate" hreflang="en-NO" href="https://www.vaneck.com/no/en/" />
+    <link rel="alternate" hreflang="en-PL" href="https://www.vaneck.com/pl/en/" />
+    <link rel="alternate" hreflang="pl-PL" href="https://www.vaneck.com/pl/pl/" />
+    <link rel="alternate" hreflang="en-PT" href="https://www.vaneck.com/pt/en/" />
+    <link rel="alternate" hreflang="en-SE" href="https://www.vaneck.com/se/en/" />
+    <link rel="alternate" hreflang="en-GB" href="https://www.vaneck.com/uk/en/" />
+
+
+
+    
+    <link rel="preload" as="style" href="/static/eu/css-sass/dist/main.css">
+    <link href="/static/eu/css-sass/dist/main.css" rel="stylesheet">
+    <!-- Critical Preload-->
+    <link rel="preload" as="font" href="/static/fonts/OpenSans/open-sans-v18-latin-600.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/static/fonts/OpenSans/open-sans-v18-latin-700.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/static/fonts/OpenSans/open-sans-v18-latin-800.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/static/fonts/OpenSans/open-sans-v18-latin-regular.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/static/fonts/slick/slick.woff" crossorigin="anonymous">
+
+        <link rel="preload" as="script" href="/static/eu/js/dist/main.js"/>
+        <link rel="preload" as="image" href="/static/corp/images/logo-blue.svg">
+    <link rel="preconnect" href="//app.usercentrics.eu">
+    <link rel="preconnect" href="//api.usercentrics.eu">
+    <link rel="preload" href="//app.usercentrics.eu/browser-ui/latest/loader.js" as="script">
+    
+
+
+    <script>
+  var sharedData = { SearchFormatString: "https://www.vaneck.com/de/en/search/?searchtext={0}" };
+</script>
+
+    
+        <script  id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="9Cezn1MVT" async></script>
+
+        
+
+
+        <link rel="preload" as="style" href="/static/ReactApps/ReactEU/dist/bundle.css">
+        <link href="/static/ReactApps/ReactEU/dist/bundle.css" rel="stylesheet">
+
+
+
+
+    <script type="text/javascript">
+        var CdnRedirection = {
+            currenthost: window.location.host,
+            originserverhost: 'origin.vaneck.com',
+            cdnserverhost: 'www.vaneck.com',
+            toOrigin: function() {
+                if (this.currenthost !== this.originserverhost) {
+                    window.location = window.location.protocol + '//' + this.originserverhost + window.location.pathname + window.location.search;
+                }
+            },
+            toCdn: function() {
+                if (this.currenthost !== this.cdnserverhost) {
+                    window.location = window.location.protocol + '//' + this.cdnserverhost + window.location.pathname + window.location.search;
+                }
+            },
+            check: function() {
+                    this.toCdn();
+            }
+        }
+            CdnRedirection.check();
+    </script>
+
+    <script src="/bundles/scripts/analytics-scripts.js"></script>
+<!-- Google Tag Manager -->
+<script type="text/javascript" src="/bundles/scripts/analytics-scripts.js"></script>
+<script type="text/plain" data-usercentrics="Google Tag Manager">
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag("consent", "default", {
+		ad_storage: "denied",
+		analytics_storage: "denied",
+		wait_for_update: 2000 // milliseconds to wait for update
+	});
+	gtag("set", "ads_data_redaction", true);
+</script>
+<script type="text/plain" data-usercentrics="Google Tag Manager">
+	(function(w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start': new Date().getTime(),
+			event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s),
+			dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+			'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-5P76753N'); 
+</script>
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Analytics GA4 -->
+<script async  type="text/plain"  data-usercentrics="Google Tag Manager" src="https://www.googletagmanager.com/gtag/js?id=G-W5S64TS8EB"></script>
+<script type="text/plain"  data-usercentrics="Google Tag Manager">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('set',{ 'VE_UserAgent':''+navigator.userAgent+'','VE_Language':'en-DE','VE_InvestorType':'ahp-selector','VE_Country':'m-de','VE_FundType':'(not set)','VE_PageType':'other-en','VE_SfdcId':''+GetSfveclId()+'','VE_MarketoId':''+GetMarketoId()+'','VE_PublishDate':'','VE_ReadTime':'','VE_PageCategory':'Home Page','VE_REC_ID':''+GetIdioVisitorId()+'' });
+  gtag('event', 'page_view',{ 'VE_UserAgent':''+navigator.userAgent+'','VE_Language':'en-DE','VE_InvestorType':'ahp-selector','VE_Country':'m-de','VE_FundType':'(not set)','VE_PageType':'other-en','VE_SfdcId':''+GetSfveclId()+'','VE_MarketoId':''+GetMarketoId()+'','VE_PublishDate':'','VE_ReadTime':'','VE_PageCategory':'Home Page','VE_REC_ID':''+GetIdioVisitorId()+'','send_to':'G-XLC1ML09SH' });
+</script>
+<!-- End Global site tag (gtag.js) - Google Analytics GA4 -->
+<script type='text/plain' data-usercentrics='Google Analytics'>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '', 'auto');
+            ga('set', 'dimension1', ''+navigator.userAgent+'');
+            ga('set', 'dimension2', 'en-DE');
+            ga('set', 'dimension3', 'ahp-selector');
+            ga('set', 'dimension4', 'm-de');
+            ga('set', 'dimension5', '(not set)');
+            ga('set', 'dimension6', 'other-en');
+            ga('set', 'dimension10', ''+GetSfveclId()+'');
+            ga('set', 'dimension11', ''+GetMarketoId()+'');
+            ga('set', 'dimension12', '');
+            ga('set', 'dimension13', 'Home Page');
+    ga('send', 'pageview');
+</script>
+
+    
+    
+    
+    <script>
+  var sharedData = { SearchFormatString: "https://www.vaneck.com/de/en/search/?searchtext={0}" };
+</script>
+
+
+    <script type="text/plain" data-usercentrics="Optimizely" id="">
+    _iaq = [["client", "869a878af96747889cfdbd746a6fd014"], ["delivery", 662], ["track", "consume"]]; !function (d, b) { var c = d.createElement(b); c.async = 1; b = d.getElementsByTagName(b)[0]; c.src = "//s.usea01.idio.episerver.net/ia.js"; b.parentNode.insertBefore(c, b) }(document, "script");
+    !function (d, b) { var c = d.attachEvent ? "on" : ""; d[c ? "attachEvent" : "addEventListener"](c + "click", function (a) { for (a = a.srcElement || a.target; a && "a" !== a.tagName && "A" !== a.tagName && !a.href;)a = a.parentNode; if (a) { a = a.href; var e = b.protocol + "//" + b.host; 0 === a.indexOf(e) && /\.pdf(\?|#|$)/i.test(a) && _iaq.push(["track", "consume", a]) } }) }(document, location);
+    </script>
+<style>
+ve-country.d-none {
+display: none!important;
+}
+ve-language.d-none {
+display: none!important;
+}
+ve-is-epi-edit-mode.d-none {
+display: none!important;
+}
+ve-is-latest-version-preview.d-none {
+display: none!important;
+}
+ve-epi-project-id.d-none {
+display: none!important;
+}
+</style><script type="text/plain" data-usercentrics="Optimizely">localStorage.setItem("ve-pagevisits-eu", true)</script>
+
+    
+<ve-country style="display:none!important">de</ve-country>
+<ve-language style="display:none!important">en</ve-language>
+<ve-is-epi-edit-mode style="display:none!important">false</ve-is-epi-edit-mode>
+<ve-is-latest-version-preview style="display:none!important">false</ve-is-latest-version-preview>
+<ve-epi-project-id style="display:none!important"></ve-epi-project-id>
+<ve-context-mode style="display:none!important">Default</ve-context-mode>
+
+    
+
+    
+</head>
+<body class="mobile-push  home-page disclaimer-deeplink" >
+
+
+
+<div id="root" class="root">
+    <div class="bs4-nav ">
+        <div class="sticky-wrapper">
+            <header class="site-header sticky ">
+
+                <div class="container text-right">
+                        <script defer>
+        document.addEventListener('DOMContentLoaded', function () {
+            $('#gateway_button').click();
+        });
+    </script>
+    <style>
+        .bs4-nav .d-inline-block {
+            display: none !important;
+        }
+    </style>
+
+<div class="gateway">
+
+    <span class="site-ahp-controls">
+        <span class="site-country-selector"> 
+            <span style="display:none" class="countryIcon global-nav-flag country-germany"></span> 
+            <button class="gateway__toggle d-inline-block text-util-xs" data-target="#gateway-modal" data-toggle="modal" type="button" id="gateway_button" aria-label="Gateway Button">
+                <span> Germany 
+                    <span class="ucits-mobile-hide">
+                    </span> 
+                </span> 
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-lg gateway__toggle-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"> <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path> </svg> 
+            </button> 
+        </span>
+
+            <span class="gateway__toggle d-inline-block text-util-xs" style="margin-left: 10px;" data-target="#language-modal" data-toggle="modal" type="button" id="language_button">
+
+                
+<div id="site-lang-dropdown" class="dropdown gateway__toggle text-util-xs">
+    <div class="dropdown-toggle" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        English
+            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-lg gateway__toggle-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path>
+            </svg>
+    </div>
+
+        <ul class="dropdown-menu" aria-labeledby="dropdownMenuButton">
+                <li><div class="dropdown-item" style="font-size:.624375rem;padding:8px" data-language="de">German</div></li>
+        </ul>
+</div>
+
+<div id="ahp-lang-dropdown" class="dropdown language-selector__wrap" style="display:none;">
+    <div class="dropdown-toggle language-content-item-t" style="font-size:.624375rem;" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span id="ahpSelectedLanguage">
+        English</span>
+       
+
+            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-lg gateway__toggle-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path>
+            </svg>
+    </div>
+
+    <ul class="dropdown-menu" aria-labeledby="dropdownMenuButton">
+            <li><div class="dropdown-item language-content-item-t"  style="font-size:.624375rem;padding:8px" data-id="en">English</div></li>
+            <li><div class="dropdown-item language-content-item-t"  style="font-size:.624375rem;padding:8px" data-id="de">German</div></li>
+    </ul>
+</div>
+
+            </span>
+    </span>
+    <div class="modal gateway__modal" id="gateway-modal" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <span class="disclaimer-ahp-controls">
+                            <span class="ahp-country-selector">
+                                <span style="display:none" class="countryIcon global-nav-flag country-germany"></span>
+
+                                <button class="gateway__toggle d-inline-block text-util-xs" data-dismiss="modal" type="button">
+                                    <span class="content-item-t">
+                                        Germany
+                                        <span class="ucits-mobile-hide"> </span>
+                                    </span>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-up" class="svg-inline--fa fa-chevron-up fa-w-16 fa-lg gateway__toggle-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                        <path fill="currentColor" d="M15.74 13.12a-.75-.75 0 00.54-.21-.75-.75 0 000-1.07L9.53 5.1a-.75-.75 0 00-1.06 0l-6.75 6.75a-.75-.75 0 000 1.07-.75-.75 0 001.06 0L9 6.69l6.22 6.22a-.75-.75 0 00.52.21z"></path>
+                                    </svg>
+                                </button>
+                            </span>
+                                <span class="gateway__toggle d-inline-block text-util-xs ahp-dropdown" style="margin-left: 10px;" data-target="#language-modal" data-toggle="modal" type="button" id="language_button_inner">
+
+                                    
+<div id="site-lang-dropdown" class="dropdown gateway__toggle text-util-xs">
+    <div class="dropdown-toggle" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        English
+            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-lg gateway__toggle-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path>
+            </svg>
+    </div>
+
+        <ul class="dropdown-menu" aria-labeledby="dropdownMenuButton">
+                <li><div class="dropdown-item" style="font-size:.624375rem;padding:8px" data-language="de">German</div></li>
+        </ul>
+</div>
+
+<div id="ahp-lang-dropdown" class="dropdown language-selector__wrap" style="display:none;">
+    <div class="dropdown-toggle language-content-item-t" style="font-size:.624375rem;" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span id="ahpSelectedLanguage">
+        English</span>
+       
+
+            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-lg gateway__toggle-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path>
+            </svg>
+    </div>
+
+    <ul class="dropdown-menu" aria-labeledby="dropdownMenuButton">
+            <li><div class="dropdown-item language-content-item-t"  style="font-size:.624375rem;padding:8px" data-id="en">English</div></li>
+            <li><div class="dropdown-item language-content-item-t"  style="font-size:.624375rem;padding:8px" data-id="de">German</div></li>
+    </ul>
+</div>
+
+                                </span>
+                        </span>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+                            <div class="gateway__container container text-left">
+                                <div class="display-2 mb-3 content-item-t">Welcome to VanEck</div>
+                                <p class="mb-4 content-item-t">
+                                    VanEck is a global investment manager with offices around the world. To help you find content that is suitable for your investment needs, please select your country and investor type.
+                                </p>
+                                <div class="form-row mb-lg-0 mb-4">
+                                    <div class="col-lg-6">
+                                        <div class="text-util-md mb-2 content-item-t">Select Your Country / Region</div>
+                                        <div id="countryFlag" class="dropdown mb-4 global-nav-flag country-germany">
+                                            <div class="dropdown-menu dropdown__menu text-util-sm countries" role="menu">
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-austria content-item-t" data-id="AT" data-blockid="1679" data-name="Austria" role="menuitem" type="button" value="Austria">Austria</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-belgium content-item-t" data-id="BE" data-blockid="131970" data-name="Belgium" role="menuitem" type="button" value="Belgium">Belgium</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-denmark content-item-t" data-id="DK" data-blockid="1074" data-name="Denmark" role="menuitem" type="button" value="Denmark">Denmark</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-finland content-item-t" data-id="FI" data-blockid="1682" data-name="Finland" role="menuitem" type="button" value="Finland">Finland</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-france content-item-t" data-id="FR" data-blockid="105528" data-name="France" role="menuitem" type="button" value="France">France</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-germany content-item-t" data-id="DE" data-blockid="1683" data-name="Germany" role="menuitem" type="button" value="Germany">Germany</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-ireland content-item-t" data-id="IE" data-blockid="1684" data-name="Ireland" role="menuitem" type="button" value="Ireland">Ireland</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-iceland content-item-t" data-id="IS" data-blockid="307178" data-name="Iceland" role="menuitem" type="button" value="Iceland">Iceland</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-italy content-item-t" data-id="IT" data-blockid="1685" data-name="Italy" role="menuitem" type="button" value="Italy">Italy</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-liechtenstein content-item-t" data-id="LI" data-blockid="92727" data-name="Liechtenstein" role="menuitem" type="button" value="Liechtenstein">Liechtenstein</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-luxembourg content-item-t" data-id="LU" data-blockid="1686" data-name="Luxembourg" role="menuitem" type="button" value="Luxembourg">Luxembourg</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-netherlands content-item-t" data-id="NL" data-blockid="1687" data-name="Netherlands" role="menuitem" type="button" value="Netherlands">Netherlands</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-norway content-item-t" data-id="NO" data-blockid="1688" data-name="Norway" role="menuitem" type="button" value="Norway">Norway</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-poland content-item-t" data-id="PL" data-blockid="128152" data-name="Poland" role="menuitem" type="button" value="Poland">Poland</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-portugal content-item-t" data-id="PT" data-blockid="88955" data-name="Portugal" role="menuitem" type="button" value="Portugal">Portugal</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-spain content-item-t" data-id="ES" data-blockid="1689" data-name="Spain" role="menuitem" type="button" value="Spain">Spain</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-sweden content-item-t" data-id="SE" data-blockid="1690" data-name="Sweden" role="menuitem" type="button" value="Sweden">Sweden</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-switzerland content-item-t" data-id="CH" data-blockid="1594" data-name="Switzerland" role="menuitem" type="button" value="Switzerland">Switzerland</button>
+<button class="dropdown-item dropdown__item text-util-sm global-nav-flag country-united-kingdom content-item-t" data-id="UK" data-blockid="1692" data-name="United Kingdom" role="menuitem" type="button" value="United Kingdom">United Kingdom</button>
+                                            </div>
+                                            <button aria-haspopup="true" aria-expanded="false" class="dropdown__button dropdown__button-default text-util-sm content-item-t" data-toggle="dropdown" type="button" data-ve-gtm="ahp-country">
+                                                <span class="dropdown__label country_label content-item-t" id="select-country-text" value="Germany">
+                                                    Germany
+                                                </span>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-2x dropdown__icon dropdown__icon-default" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                                    <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path>
+                                                </svg>
+                                            </button>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 scroll-to-investor">
+                                        <div class="text-util-md mb-2 content-item-t">Select Investor Type</div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-menu dropdown__menu text-util-sm investortypes" role="menu">
+                                                        <button class="dropdown-item dropdown__item text-util-sm content-item-t"
+                                                                role="menuitem" type="button"
+                                                                data-id="retail" value="Individual Investor">
+                                                            Individual Investor
+                                                        </button>
+                                                        <button class="dropdown-item dropdown__item text-util-sm content-item-t"
+                                                                role="menuitem" type="button"
+                                                                data-id="pi" value="Professional Investor">
+                                                            Professional Investor
+                                                        </button>
+                                            </div>
+                                            <button aria-haspopup="true" aria-expanded="false" class="dropdown__button dropdown__button-default text-util-sm " data-toggle="dropdown" type="button" data-ve-gtm="ahp-investor-type">
+                                                <span class="dropdown__label investortype_label content-item-t">
+                                                    Select Investor Type
+                                                </span>
+                                                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-2x dropdown__icon dropdown__icon-default" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                                    <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path>
+                                                </svg>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="disclaimer_block" style="display:none;">
+                                    <div class="text-util-md mb-2 header">
+                                        
+                                    </div>
+                                    <div class="mb-4 text">
+                                        
+                                    </div>
+
+                                    <div class="mt-3">
+                                        <button data-dismiss="modal" class="btn btn-primary gateway__action agree" data-ve-gtm="ahp-disclaimer-agree" data-agree="">
+                                            I agree
+                                        </button>
+                                        <button class="btn btn-white gateway__action decline" data-ve-gtm="ahp-disclaimer-decline" data-decline="">
+                                            I decline
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<input type="hidden" id="hdnDataUrl" value="/common/header/processrequest" />
+<input type="hidden" id="hdnSelectedCountry" value="DE" />
+<input type="hidden" id="hdnCurrentCountryIso3" value="DEU" />
+<input type="hidden" id="hdnSelectedAudience" />
+<input type="hidden" id="hdnCurrentLanguage" value="English" />
+<input type="hidden" id="hdnLanguage" value="en" />
+<input type="hidden" id="hdnCountryUrl" value="/ucits/home/de" />
+<input type="hidden" id="hdnAhpLanguage" value="" />
+<input type="hidden" id="hdnCurrentCountryName" value="Germany" />
+<input type="hidden" id="hdnCurrentMicrositeId" value="ucits" />
+<input type="hidden" id="hdnCurrentSiteContextType" value="Ucits" />
+<input type="hidden" id="hdnSameWayEnabled" value="True" />
+<input type="hidden" id="hdnAhpSelectedCountryName" value="" />
+
+                </div>
+        <style>
+            body {
+                padding-right: 0px !important;
+            }
+        </style>
+        <nav class="">
+            <div class="navbar navbar-expand-lg navbar-light container align-items-center align-items-lg-end">
+                <a class="navbar-brand" href="/">
+                    <img alt="VanEck" class="d-inline-block align-bottom" src="/static/corp/images/logo-blue.svg" height="36">
+                </a>
+                <div class="d-lg-none">
+                    <button class="site-header__nav-link nav-link d-inline-block align-middle px-0 py-1 ml-3" data-target="#site-header-search" data-toggle="modal" data-ve-gtm="enter-search" aria-label="Share Button" type="button">
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="search" class="svg-inline--fa fa-search fa-w-16 fa-2x icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M9.97 3.09a6.73 6.73 0 00-4.75 11.47 6.66 6.66 0 008.82.45l5.43 5.5a.75.75 0 001.06-1.05l-5.42-5.5a6.64 6.64 0 00-.23-8.67c-1.29-1.12-2.38-2.03-4.9-2.2zm0 1.49a5.2 5.2 0 013.67 8.93 5.2 5.2 0 11-3.67-8.93z"></path>
+                        </svg>
+                    </button>
+                    <button class="site-header__nav-link site-header__mobile-menu-toggle navbar-toggler nav-link collapsed" type="button" data-target="#site-header-mobile-menu" aria-label="Toggle navigation">
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="bars" class="svg-inline--fa fa-bars fa-w-16 fa-fw fa-2x site-header__toggle-icon site-header__toggle-icon--open" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                            <path fill="currentColor" d="M5.33 5.25a.75.75 0 00-.75.75.75.75 0 00.75.75h21.34a.75.75 0 00.75-.75.75.75 0 00-.75-.75zm0 6.67a.75.75 0 00-.75.75.75.75 0 00.75.75h16a.75.75 0 00.75-.75.75.75 0 00-.75-.75zm0 6.66a.75.75 0 00-.75.75.75.75 0 00.75.75h21.34a.75.75 0 00.75-.75.75.75 0 00-.75-.75zm0 6.67a.75.75 0 00-.75.75.75.75 0 00.75.75H16a.75.75 0 00.75-.75.75.75 0 00-.75-.75z">
+                            </path>
+                        </svg>
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="times" class="svg-inline--fa fa-times fa-w-16 fa-fw fa-2x site-header__toggle-icon site-header__toggle-icon--close" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                            <path fill="currentColor" d="M10 9.25a.75.75 0 00-.53.22.75.75 0 000 1.06L14.94 16l-5.47 5.47a.75.75 0 000 1.06.75.75 0 001.06 0L16 17.06l5.47 5.47a.75.75 0 001.06 0 .75.75 0 000-1.06L17.06 16l5.47-5.47a.75.75 0 000-1.06.75.75 0 00-1.06 0L16 14.94l-5.47-5.47a.75.75 0 00-.52-.22z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-nav">
+                    <ul class="navbar-nav ml-auto align-items-lg-center d-none d-lg-flex">
+                        <li class="site-header__nav-item nav-item d-none d-lg-block ml-2">
+                            <button class="site-header__nav-link nav-link px-0" data-target="#site-header-search" data-toggle="modal" data-ve-gtm="enter-search" type="button" aria-label="Search Button">
+                                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="search" class="svg-inline--fa fa-search fa-w-16 fa-2x icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M9.97 3.09a6.73 6.73 0 00-4.75 11.47 6.66 6.66 0 008.82.45l5.43 5.5a.75.75 0 001.06-1.05l-5.42-5.5a6.64 6.64 0 00-.23-8.67c-1.29-1.12-2.38-2.03-4.9-2.2zm0 1.49a5.2 5.2 0 013.67 8.93 5.2 5.2 0 11-3.67-8.93z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </li>
+    <li class="site-header__nav-item nav-item investments-menu">
+        <a class="site-header__nav-link nav-link "
+           href="/de/en/fundlisting/overview/etfs/"           data-ve-gtm="L1-nav">Products</a>
+        <div class="site-header__submenu" id="Products-desktop">
+            <div class="site-header__submenu-inner">
+                <div class="container d-block">
+                    <div class="tabs Products-tabs hover-tabs">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+
+<li class="site-header__nav-item nav-item">
+        <div class="site-header__nav-link nav-link " data-ve-gtm="L1-nav">Investment Ideas</div>
+    <div class="site-header__submenu" id="Investment-Ideas-desktop">
+        <div class="site-header__submenu-inner">
+            <div class="container d-block">
+                <div class="row">
+                    <div class="col-3 pr-4 position-static default-menu-tabs">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                    <div class="site-header__submenu-content default-menu-content col-9 col-xl-7 pl-4" data-pane="Investment-Ideas-desktop">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+<li class="site-header__nav-item nav-item">
+        <div class="site-header__nav-link nav-link " data-ve-gtm="L1-nav">Education</div>
+    <div class="site-header__submenu" id="Education-desktop">
+        <div class="site-header__submenu-inner">
+            <div class="container d-block">
+                <div class="row">
+                    <div class="col-3 pr-4 position-static default-menu-tabs">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                    <div class="site-header__submenu-content default-menu-content col-9 col-xl-7 pl-4" data-pane="Education-desktop">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+<li class="site-header__nav-item nav-item">
+        <a class="site-header__nav-link nav-link "  href="/de/en/insights/" data-ve-gtm="L1-nav">Insights</a>
+    <div class="site-header__submenu" id="Insights-desktop">
+        <div class="site-header__submenu-inner">
+            <div class="container d-block">
+                <div class="row">
+                    <div class="col-3 pr-4 position-static default-menu-tabs">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                    <div class="site-header__submenu-content default-menu-content col-9 col-xl-7 pl-4" data-pane="Insights-desktop">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+<li class="site-header__nav-item nav-item">
+        <div class="site-header__nav-link nav-link " data-ve-gtm="L1-nav">Resources</div>
+    <div class="site-header__submenu" id="Resources-desktop">
+        <div class="site-header__submenu-inner">
+            <div class="container d-block">
+                <div class="row">
+                    <div class="col-3 pr-4 position-static default-menu-tabs">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                    <div class="site-header__submenu-content default-menu-content col-9 col-xl-7 pl-4" data-pane="Resources-desktop">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+<li class="site-header__nav-item nav-item">
+        <a class="site-header__nav-link nav-link "  href="/de/en/our-firm/" data-ve-gtm="L1-nav">Our Firm</a>
+    <div class="site-header__submenu" id="Our-Firm-desktop">
+        <div class="site-header__submenu-inner">
+            <div class="container d-block">
+                <div class="row">
+                    <div class="col-3 pr-4 position-static default-menu-tabs">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                    <div class="site-header__submenu-content default-menu-content col-9 col-xl-7 pl-4" data-pane="Our-Firm-desktop">
+                        <!-- Insert children dynamically for US and UCITS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>                            <li><a class="btn btn-primary btn-sm" href="" id="newsletterBtn">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="site-header__mobile-menu" id="site-header-mobile-menu">
+                <div class="site-header__mobile-menu-inner">
+                    <ul class="list-unstyled my-3 container">
+
+    <li class="nav-item my-3 investments-menu-mobile">
+        <button class="site-header__mobile-submenu-toggle site-header__mobile-submenu-open" type="button" data-target="#Products-mobile-submenu" data-ve-gtm="L1-nav"> <span class="site-header__mobile-menu-action-inner"> Products<span class="site-header__mobile-submenu-icon-wrapper"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-16 fa-sm site-header__mobile-submenu-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M13.49 5.24a.75.75 0 00-.54.22.75.75 0 000 1.06l4.73 4.71H4.48a.75.75 0 00-.75.75.75.75 0 00.75.75h13.24l-4.77 4.75a.75.75 0 000 1.06.75.75 0 001.06 0l6.04-6a.75.75 0 000-1.07L14 5.46a.75.75 0 00-.52-.22z"> </path> </svg> </span> </span> </button>
+        <div class="site-header__mobile-submenu" id="Products-mobile-submenu">
+            <div class="site-header__mobile-submenu-inner container">
+                <button data-ve-gtm="nav-mobile-back" class="site-header__mobile-submenu-toggle site-header__mobile-submenu-close" data-target="#Products-mobile-submenu" type="button"> <span class="site-header__mobile-menu-action-inner d-flex align-items-center"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-16 fa-2x site-header__mobile-submenu-icon text-accent mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M10.51 18.76a.75.75 0 00.54-.22.75.75 0 000-1.06l-4.73-4.71h13.2a.75.75 0 00.75-.75.75.75 0 00-.75-.75H6.28l4.77-4.75a.75.75 0 000-1.06.75.75 0 00-1.06 0l-6.04 6a.75.75 0 000 1.07L10 18.54a.75.75 0 00.52.22z"> </path> </svg> Main Menu </span> </button>
+                <div class="h2 mb-3 mt-4">Products</div>
+                <ul class="list-unstyled">
+                    <!-- Insert children dynamically for US and UCITS -->
+                </ul>
+            </div>
+        </div>
+    </li>
+
+
+<li class="nav-item my-3 default-menu-mobile">
+    <button class="site-header__mobile-submenu-toggle site-header__mobile-submenu-open" type="button" data-target="#Investment-Ideas-mobile-submenu" data-ve-gtm="L1-nav"> <span class="site-header__mobile-menu-action-inner"> Investment Ideas<span class="site-header__mobile-submenu-icon-wrapper"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-16 fa-sm site-header__mobile-submenu-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M13.49 5.24a.75.75 0 00-.54.22.75.75 0 000 1.06l4.73 4.71H4.48a.75.75 0 00-.75.75.75.75 0 00.75.75h13.24l-4.77 4.75a.75.75 0 000 1.06.75.75 0 001.06 0l6.04-6a.75.75 0 000-1.07L14 5.46a.75.75 0 00-.52-.22z"> </path> </svg> </span> </span> </button>
+    <div class="site-header__mobile-submenu" id="Investment-Ideas-mobile-submenu">
+        <div class="site-header__mobile-submenu-inner container">
+            <button data-ve-gtm="nav-mobile-back" class="site-header__mobile-submenu-toggle site-header__mobile-submenu-close" data-target="#Investment-Ideas-mobile-submenu" type="button"> <span class="site-header__mobile-menu-action-inner d-flex align-items-center"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-16 fa-2x site-header__mobile-submenu-icon text-accent mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M10.51 18.76a.75.75 0 00.54-.22.75.75 0 000-1.06l-4.73-4.71h13.2a.75.75 0 00.75-.75.75.75 0 00-.75-.75H6.28l4.77-4.75a.75.75 0 000-1.06.75.75 0 00-1.06 0l-6.04 6a.75.75 0 000 1.07L10 18.54a.75.75 0 00.52.22z"> </path> </svg> Main Menu </span> </button>
+            <div class="h2 mb-3 mt-4">Investment Ideas</div>
+            <ul class="list-unstyled">
+                    <!-- Insert children dynamically for US and UCITS  -->
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class="nav-item my-3 default-menu-mobile">
+    <button class="site-header__mobile-submenu-toggle site-header__mobile-submenu-open" type="button" data-target="#Education-mobile-submenu" data-ve-gtm="L1-nav"> <span class="site-header__mobile-menu-action-inner"> Education<span class="site-header__mobile-submenu-icon-wrapper"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-16 fa-sm site-header__mobile-submenu-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M13.49 5.24a.75.75 0 00-.54.22.75.75 0 000 1.06l4.73 4.71H4.48a.75.75 0 00-.75.75.75.75 0 00.75.75h13.24l-4.77 4.75a.75.75 0 000 1.06.75.75 0 001.06 0l6.04-6a.75.75 0 000-1.07L14 5.46a.75.75 0 00-.52-.22z"> </path> </svg> </span> </span> </button>
+    <div class="site-header__mobile-submenu" id="Education-mobile-submenu">
+        <div class="site-header__mobile-submenu-inner container">
+            <button data-ve-gtm="nav-mobile-back" class="site-header__mobile-submenu-toggle site-header__mobile-submenu-close" data-target="#Education-mobile-submenu" type="button"> <span class="site-header__mobile-menu-action-inner d-flex align-items-center"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-16 fa-2x site-header__mobile-submenu-icon text-accent mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M10.51 18.76a.75.75 0 00.54-.22.75.75 0 000-1.06l-4.73-4.71h13.2a.75.75 0 00.75-.75.75.75 0 00-.75-.75H6.28l4.77-4.75a.75.75 0 000-1.06.75.75 0 00-1.06 0l-6.04 6a.75.75 0 000 1.07L10 18.54a.75.75 0 00.52.22z"> </path> </svg> Main Menu </span> </button>
+            <div class="h2 mb-3 mt-4">Education</div>
+            <ul class="list-unstyled">
+                    <!-- Insert children dynamically for US and UCITS  -->
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class="nav-item my-3 default-menu-mobile">
+    <button class="site-header__mobile-submenu-toggle site-header__mobile-submenu-open" type="button" data-target="#Insights-mobile-submenu" data-ve-gtm="L1-nav"> <span class="site-header__mobile-menu-action-inner"> Insights<span class="site-header__mobile-submenu-icon-wrapper"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-16 fa-sm site-header__mobile-submenu-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M13.49 5.24a.75.75 0 00-.54.22.75.75 0 000 1.06l4.73 4.71H4.48a.75.75 0 00-.75.75.75.75 0 00.75.75h13.24l-4.77 4.75a.75.75 0 000 1.06.75.75 0 001.06 0l6.04-6a.75.75 0 000-1.07L14 5.46a.75.75 0 00-.52-.22z"> </path> </svg> </span> </span> </button>
+    <div class="site-header__mobile-submenu" id="Insights-mobile-submenu">
+        <div class="site-header__mobile-submenu-inner container">
+            <button data-ve-gtm="nav-mobile-back" class="site-header__mobile-submenu-toggle site-header__mobile-submenu-close" data-target="#Insights-mobile-submenu" type="button"> <span class="site-header__mobile-menu-action-inner d-flex align-items-center"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-16 fa-2x site-header__mobile-submenu-icon text-accent mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M10.51 18.76a.75.75 0 00.54-.22.75.75 0 000-1.06l-4.73-4.71h13.2a.75.75 0 00.75-.75.75.75 0 00-.75-.75H6.28l4.77-4.75a.75.75 0 000-1.06.75.75 0 00-1.06 0l-6.04 6a.75.75 0 000 1.07L10 18.54a.75.75 0 00.52.22z"> </path> </svg> Main Menu </span> </button>
+            <div class="h2 mb-3 mt-4">Insights</div>
+            <ul class="list-unstyled">
+                    <!-- Insert children dynamically for US and UCITS  -->
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class="nav-item my-3 default-menu-mobile">
+    <button class="site-header__mobile-submenu-toggle site-header__mobile-submenu-open" type="button" data-target="#Resources-mobile-submenu" data-ve-gtm="L1-nav"> <span class="site-header__mobile-menu-action-inner"> Resources<span class="site-header__mobile-submenu-icon-wrapper"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-16 fa-sm site-header__mobile-submenu-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M13.49 5.24a.75.75 0 00-.54.22.75.75 0 000 1.06l4.73 4.71H4.48a.75.75 0 00-.75.75.75.75 0 00.75.75h13.24l-4.77 4.75a.75.75 0 000 1.06.75.75 0 001.06 0l6.04-6a.75.75 0 000-1.07L14 5.46a.75.75 0 00-.52-.22z"> </path> </svg> </span> </span> </button>
+    <div class="site-header__mobile-submenu" id="Resources-mobile-submenu">
+        <div class="site-header__mobile-submenu-inner container">
+            <button data-ve-gtm="nav-mobile-back" class="site-header__mobile-submenu-toggle site-header__mobile-submenu-close" data-target="#Resources-mobile-submenu" type="button"> <span class="site-header__mobile-menu-action-inner d-flex align-items-center"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-16 fa-2x site-header__mobile-submenu-icon text-accent mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M10.51 18.76a.75.75 0 00.54-.22.75.75 0 000-1.06l-4.73-4.71h13.2a.75.75 0 00.75-.75.75.75 0 00-.75-.75H6.28l4.77-4.75a.75.75 0 000-1.06.75.75 0 00-1.06 0l-6.04 6a.75.75 0 000 1.07L10 18.54a.75.75 0 00.52.22z"> </path> </svg> Main Menu </span> </button>
+            <div class="h2 mb-3 mt-4">Resources</div>
+            <ul class="list-unstyled">
+                    <!-- Insert children dynamically for US and UCITS  -->
+            </ul>
+        </div>
+    </div>
+</li>
+
+<li class="nav-item my-3 default-menu-mobile">
+    <button class="site-header__mobile-submenu-toggle site-header__mobile-submenu-open" type="button" data-target="#Our-Firm-mobile-submenu" data-ve-gtm="L1-nav"> <span class="site-header__mobile-menu-action-inner"> Our Firm<span class="site-header__mobile-submenu-icon-wrapper"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-w-16 fa-sm site-header__mobile-submenu-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M13.49 5.24a.75.75 0 00-.54.22.75.75 0 000 1.06l4.73 4.71H4.48a.75.75 0 00-.75.75.75.75 0 00.75.75h13.24l-4.77 4.75a.75.75 0 000 1.06.75.75 0 001.06 0l6.04-6a.75.75 0 000-1.07L14 5.46a.75.75 0 00-.52-.22z"> </path> </svg> </span> </span> </button>
+    <div class="site-header__mobile-submenu" id="Our-Firm-mobile-submenu">
+        <div class="site-header__mobile-submenu-inner container">
+            <button data-ve-gtm="nav-mobile-back" class="site-header__mobile-submenu-toggle site-header__mobile-submenu-close" data-target="#Our-Firm-mobile-submenu" type="button"> <span class="site-header__mobile-menu-action-inner d-flex align-items-center"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-16 fa-2x site-header__mobile-submenu-icon text-accent mr-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path fill="currentColor" d="M10.51 18.76a.75.75 0 00.54-.22.75.75 0 000-1.06l-4.73-4.71h13.2a.75.75 0 00.75-.75.75.75 0 00-.75-.75H6.28l4.77-4.75a.75.75 0 000-1.06.75.75 0 00-1.06 0l-6.04 6a.75.75 0 000 1.07L10 18.54a.75.75 0 00.52.22z"> </path> </svg> Main Menu </span> </button>
+            <div class="h2 mb-3 mt-4">Our Firm</div>
+            <ul class="list-unstyled">
+                    <!-- Insert children dynamically for US and UCITS  -->
+            </ul>
+        </div>
+    </div>
+</li>                    </ul>
+
+                    <ul class="list-unstyled my-3 container">
+                            <li><a class="btn btn-primary btn-sm p-1 ml-3 mob-button mob-subscribe-btn" id="newsletterBtnMob" href="">Newsletter</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="modal site-header__search" id="site-header-search" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="search">
+                            <div class="search__container">
+                                <input type="text" class="search__input form-control form-control-lg" placeholder="Enter a keyword or fund" value="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', async function() {
+        var url = '/common/sharedview/gettopsubmenu';
+        try {
+            url = url.indexOf("?") !== -1
+                ? url + "&_=" + new Date().getTime()
+                : url + "?_=" + new Date().getTime()
+            const response = await fetch(url);
+            const data = await response.json();
+
+            const investmentsMenu = document.querySelector('.investments-menu .site-header__submenu .tabs.hover-tabs');
+            if(investmentsMenu) {
+                investmentsMenu.insertAdjacentHTML("beforeend", data.investmentSubmenu);
+            }
+
+            const defaultMenuTabs = document.querySelectorAll('.default-menu-tabs');
+            if(defaultMenuTabs) {
+                for (let i = 0; i < defaultMenuTabs.length; i++){
+                    defaultMenuTabs[i].insertAdjacentHTML("beforeend", data.defaultSubmenuTabs[i]);
+                }
+            }
+
+            const defaultMenuContent = document.querySelectorAll('.default-menu-content');
+            if(defaultMenuContent) {
+                for (let i = 0; i < defaultMenuContent.length; i++){
+                    defaultMenuContent[i].insertAdjacentHTML("beforeend", data.defaultSubmenuContent[i]);
+                }
+            }
+
+            const investmentsMenuMobile = document.querySelector('.investments-menu-mobile .list-unstyled');
+            if(investmentsMenuMobile) {
+                investmentsMenuMobile.insertAdjacentHTML("beforeend", data.investmentSubmenuMobile);
+            }
+
+            const defaultMenuMobile = document.querySelectorAll('.default-menu-mobile .list-unstyled');
+            if(defaultMenuMobile) {
+                for (let i = 0; i < defaultMenuMobile.length; i++){
+                    defaultMenuMobile[i].insertAdjacentHTML("beforeend", data.defaultSubmenuMobile[i]);
+                }
+            }
+
+            const menuLoadedEvent = new CustomEvent("dynamicMenuLoaded", {
+                bubbles: false,
+                cancelable: true,
+                composed: false,
+            });
+            document.dispatchEvent(menuLoadedEvent);
+
+        } catch (error) {
+            console.log(error.message);
+        }
+    });
+</script>            </header>
+        </div>
+    </div>
+    <main>
+        
+
+
+    <section class="homepage-video-carousel">
+
+        <div class="compound-hero-video" data-ve-gtm="container-main-card homepage-slider">
+            <div class="slider-for">
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_smh_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/semiconductor-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_gold_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/gold-miners-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_hydrogen_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/hydrogen-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_sustainable-Food_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/food-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_rare-earth_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/rare-earth-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_multi-crypto-etns_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/crypto-etn/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_defense_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/defense-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_circular_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/circular-economy-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_commodity_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/commodities-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="hero bg-tertiary text-white hero__video reduced-padding" data-ve-gtm="container-main-card" id="">
+            <video muted="muted" loop="loop" class="hero__bg" preload="none" playsinline="playsinline" poster=/globalassets/home/ucits/home/de/hero-video/blue-poster.png style=object-fit:cover;>
+                    <source src="/globalassets/home/ucits/home/de/hero-video/hero-video-list/video-en/17.7057_website-header_dividend_desktop_eng.mp4" type="video/mp4">
+            </video>
+                <div class="video-hero-more-info"><a class="btn" href="/de/en/dividend-etf/">Discover ETF</a></div>
+        <div class="container">
+            <div class="hero__content-container">
+            </div>
+        </div>
+        </div>
+
+
+            </div>
+            <div class="audio-on-icon">
+                <svg id="sound-on" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 644.62 644.62"><defs></defs><g id="Ebene_2-2"><circle class="cls-2" cx="322.31" cy="322.31" r="322.31"/><g id="Layer_1"><g><path class="cls-1" d="M362.45,146c-9.45-5.14-20.92-4.7-29.92,1.14l-124.79,80.9c-6.48,4.2-11.33,10.19-14.06,17.08h-50.13c-16.42,0-29.78,13.36-29.78,29.78v94.8c0,16.42,13.36,29.78,29.78,29.78h50.13c2.73,6.89,7.58,12.88,14.06,17.09l124.79,80.9c4.83,3.13,10.37,4.71,15.92,4.71,4.8,0,9.62-1.18,14-3.56,9.24-5.02,14.98-14.59,14.98-25V170.99c0-10.4-5.74-19.98-14.98-25h0Zm-224.19,223.71v-94.8c0-2.91,2.37-5.29,5.28-5.29h47.62v105.36h-47.61c-2.91,0-5.28-2.37-5.28-5.28h-.01Zm214.67,103.92c0,1.89-1.18,2.94-2.18,3.48-.75,.41-2.75,1.21-4.9-.18l-124.79-80.9c-3.38-2.2-5.41-5.83-5.41-9.72v-127.98c0-3.89,2.02-7.51,5.4-9.71l124.81-80.91c.91-.59,1.79-.78,2.56-.78,1.06,0,1.91,.37,2.34,.61,.99,.54,2.18,1.58,2.18,3.48V473.61h0Z"/><path class="cls-1" d="M418.61,268.48c29.68,29.68,29.68,77.97,0,107.65l17.32,17.32c39.23-39.23,39.23-103.06,0-142.29l-17.32,17.32h0Z"/><path class="cls-1" d="M485.26,212.09l-17.32,17.32c51.22,51.22,51.22,134.56,0,185.78l17.32,17.32c60.77-60.77,60.77-159.65,0-220.41h0Z"/></g></g></g></svg>
+                <svg id="sound-off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 644.62 644.62"><defs></defs><g id="Ebene_2-2"><circle class="cls-2" cx="322.31" cy="322.31" r="322.31"/><g id="Layer_1"><g><path class="cls-1" d="M350.33,146c-9.45-5.14-20.92-4.7-29.92,1.14l-124.79,80.9c-6.48,4.2-11.34,10.2-14.06,17.09h-50.13c-16.42,0-29.78,13.36-29.78,29.78v94.8c0,16.42,13.36,29.78,29.78,29.78h50.13c2.73,6.89,7.58,12.88,14.06,17.09l124.79,80.9c4.83,3.13,10.36,4.71,15.92,4.71,4.8,0,9.62-1.18,14-3.56,9.24-5.02,14.97-14.6,14.97-25V170.99c0-10.4-5.74-19.98-14.98-25h0ZM126.14,369.7v-94.8c0-2.91,2.37-5.28,5.28-5.28h47.62v105.36h-47.61c-2.91,0-5.28-2.37-5.28-5.28h-.01Zm214.67,103.91c0,1.9-1.18,2.94-2.18,3.48-.76,.41-2.75,1.21-4.9-.18l-124.79-80.9c-3.38-2.19-5.4-5.82-5.4-9.71v-127.99c0-3.89,2.02-7.51,5.4-9.71l124.8-80.91c.91-.59,1.79-.78,2.56-.78,1.06,0,1.91,.37,2.34,.61,.99,.54,2.18,1.58,2.18,3.48V473.61h0Z"/><polygon class="cls-1" points="542.96 278.71 525.64 261.4 482.05 304.99 438.46 261.4 421.14 278.71 464.73 322.3 421.14 365.89 438.46 383.21 482.05 339.62 525.64 383.21 542.96 365.89 499.37 322.3 542.96 278.71"/></g></g></g></svg>
+            </div>
+        </div>
+    </section>
+
+        <div class="container" data-epi-type="content">
+            
+
+
+
+
+
+<div class="subscribe-block subscribe-block--horizontal"><div class="my-5">
+    <section class="p-4 ucits-search-wrapper bg-light-grey" id="" data-originalid="" >
+        <div class="row">
+
+<div class="col-12 ucits-search-block">
+        <h2 class="mb-3">Product Search</h2>
+    <form id="ucitsSearchForm" data-blockid="281068" data-language="en" method="dialog">
+        <div class="Form__Element FormTextbox">
+            <label for="ucitsSearchInput" class="sr-only">
+                Search
+            </label>
+            <div class="searchbar-wrapper col-lg-12 d-flex justify-content-between flex-nowrap align-items-center border border-primary rounded bg-white">
+                <div class="search-input-wrapper p-0 w-100">
+                    <input name="search-input" id="ucitsSearchInput" type="text" class="FormTextbox__Input form-control border-0" placeholder="Keyword, Fund name, ISIN, ticker" required="" aria-required="true" data-placeholdertext="Search by keyword, fund name, ISIN, ticker" data-mobileplaceholdertext="Keyword, Fund name, ISIN, ticker" />
+                </div>
+                <div class="searchbar-icons-wrapper d-flex p-0">
+                    <div id="search-clear" class="invisible mr-sm-2">
+                        <img alt="search-close-icon" src="/globalassets/home/ucits/home/_homepage-new/close-icon.svg" height="25" width="25" />
+                    </div>
+                    <div id="search-submit">
+                        <img alt="search-close-icon" src="/globalassets/home/ucits/home/_homepage-new/search-icon.svg" height="25" width="25" />
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+        </div>
+    </form>
+    <div class="table-wrapper" id="fundSearchResultTable" style="display:none;">
+        <table class="search-result-table" >
+            <thead>
+                <tr>
+                        <th>ISIN</th>
+                        <th>WKN</th>
+                        <th>Fund Name</th>
+                        <th>TER</th>
+                        <th>Total Net Assets</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+    <div class="col-lg-4 mt-3 highlights-block">
+        <div class="top-border-block"></div>
+        <img class="highlights-block__banner w-100" src="/globalassets/home/ucits/home/_homepage-new/vaneck-highlight-etf-of-the-month-may-2025-moat.webp" alt="ETF Highlight of the month"/>
+        <div class="mt-3">
+                <div class="highlights-block__heading">ETF Highlight of the month</div>
+
+                <h3 class="highlights-block__subHeading">VanEck Morningstar Global Wide Moat UCITS ETF</h3>
+
+            <div class="highlights-block__description mt-3">
+In an investment environment marked by global uncertainty and structural shifts, some investors are turning to strategies that prioritise competitive advantage. Companies with durable economic moats such as strong brands, intellectual property or cost efficiency have demonstrated resilience across different market cycles and regions.<br />This strategy seeks to identify businesses with long-term defensibility and reasonable valuations. It is designed to offer diversified exposure to global equities with a focus on quality characteristics and fundamentals rather than short-term momentum or sector concentration. <br />
+<div class="highlights-block__list">
+<div class="highlights-block__info-text">Fund Volume: $107.1 Million</div>
+<div class="highlights-block__info-text">YTD Performance: 7.4%</div>
+<div class="highlights-block__info-text">
+<div class="text-util-sm">As of 30 Apr 2025</div>
+</div>
+</div>
+<p><small>Source: VanEck.<br />However, the ever-changing nature of global geopolitics means that unforeseen events or shifts in international relations makes it subject to volatility risk. The decision to invest in the ETF should take into account all the characteristics or objectives of the ETF as described in the KID, the prospectus, or related documents before making an investment decision.</small></p>            </div>
+
+                <div class="highlights-block__list">
+                        <div class="highlights-block__info-text"><button class="mt-3" onclick="window.open('/ucits/investments/global-moat-etf/', '_blank')">View ETF</button></div>
+                </div>
+        </div>
+    </div>
+
+
+<div class="col-lg-4 mt-3 top-performance-funds" id="topPerformanceFunds" data-blockid="281061" data-country="de" data-language="en">
+    <div class="top-border-block"></div>
+    <div>
+        <img class="image w-100" src="/globalassets/home/ucits/home/_homepage-new/vaneck-investments-image.png" alt="Top Performers">
+    </div>
+    <div class="d-flex flex-column position-relative justify-content-between align-items-start mb-3">
+        <div class="fundlist-block__heading mt-3">
+            Top Performers
+        </div>
+        <div class="d-flex justify-content-between w-100 flex-wrap">
+                <div class="dropdown fund-type-dropdown">
+                    <div class="dropdown-menu dropdown__menu text-util-sm performance-fund-types" role="menu" style="">
+                            <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="All">
+                                All products
+                            </button>
+                            <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="ETF">
+                                ETFs
+                            </button>
+                            <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="ETN">
+                                ETNs
+                            </button>
+                    </div>
+                    <button aria-haspopup="true" aria-expanded="false" class="fund-type-button" data-toggle="dropdown" type="button" data-initial-val="All" data-selected-val="All">
+                        <span class="dropdown__label fund_type_label content-item-t">
+                            All products
+                        </span>
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-2x dropdown__icon dropdown__icon-default" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                            <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path>
+                        </svg>
+                    </button>
+                </div>
+            <div class="dropdown period-dropdown">
+                <div class="dropdown-menu dropdown-menu-right dropdown__menu text-util-sm performance-periods" role="menu" style="">
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="OneMonth">
+                            1 Month
+                        </button>
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="ThreeMonth">
+                            3 Months
+                        </button>
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="SixMonth">
+                            6 Months
+                        </button>
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="YearToDate">
+                            YTD
+                        </button>
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="OneYear">
+                            1 Year
+                        </button>
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="ThreeYear">
+                            3 Years
+                        </button>
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="FiveYear">
+                            5 Years
+                        </button>
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="TenYear">
+                            10 Years
+                        </button>
+                        <button class="dropdown-item dropdown__item text-util-sm content-item-t" role="menuitem" type="button" value="Life">
+                            Since Inception
+                        </button>
+                </div>
+                <button aria-haspopup="true" aria-expanded="false" class="period-button" data-toggle="dropdown" type="button" data-initial-val="ThreeYear" data-selected-val="ThreeYear">
+                    <span class="dropdown__label period_label content-item-t">
+                        3 Years
+                    </span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-16 fa-2x dropdown__icon dropdown__icon-default" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                        <path fill="currentColor" d="M2.26 4.88a.75.75 0 00-.54.21.75.75 0 000 1.07l6.75 6.75a.75.75 0 001.06 0l6.75-6.75a.75.75 0 000-1.07.75.75 0 00-1.06 0L9 11.31 2.78 5.1a.75.75 0 00-.52-.21z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="data-display-section">
+                <div class="fund-item mt-2">
+                    <a class="cta-link fundlist-block__cta-item d-flex justify-content-between align-items-center" href="/ucits/investments/tron-etp/">
+                        <span class="fund-name">VanEck TRON ETN</span>
+                        <span class="font-weight-bold">
+                            &#x2B;54.3%
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                        </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="fund-item mt-2">
+                    <a class="cta-link fundlist-block__cta-item d-flex justify-content-between align-items-center" href="/ucits/investments/bitcoin-etp/">
+                        <span class="fund-name">VanEck Bitcoin ETN</span>
+                        <span class="font-weight-bold">
+                            &#x2B;33.2%
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                        </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="fund-item mt-2">
+                    <a class="cta-link fundlist-block__cta-item d-flex justify-content-between align-items-center" href="/ucits/investments/esports-etf/">
+                        <span class="fund-name">VanEck Video Gaming and eSports UCITS ETF</span>
+                        <span class="font-weight-bold">
+                            &#x2B;24.5%
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                        </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="fund-item mt-2">
+                    <a class="cta-link fundlist-block__cta-item d-flex justify-content-between align-items-center" href="/ucits/investments/semiconductor-etf/">
+                        <span class="fund-name">VanEck Semiconductor UCITS ETF</span>
+                        <span class="font-weight-bold">
+                            &#x2B;18.1%
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                        </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="fund-item mt-2">
+                    <a class="cta-link fundlist-block__cta-item d-flex justify-content-between align-items-center" href="/ucits/investments/solana-etp/">
+                        <span class="fund-name">VanEck Solana ETN</span>
+                        <span class="font-weight-bold">
+                            &#x2B;14.4%
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                        </svg>
+                        </span>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="highlights-block__info-text as-of-date">
+        <div class="text-util-sm text-right"><span>As of 30 Apr 2025</span></div>
+    </div>
+    <div class="chart-disclaimer mt-3">
+        Past performance does not predict future return. Performance quoted represents past performance. Performance for periods longer than one year has been annualised. Due to market fluctuations and other factors, performance may vary over time. Investors should consider a medium/long-term perspective when evaluating performance. Investing is subject to risks. Please refer to the prospectus of the UCITS and to the KID before making any final investment decisions.
+    </div>
+
+
+
+
+</div>    <div class=" col-lg-4 mt-3">
+        <div class="top-border-block"></div>
+        <img class="fundlist-block__banner w-100" src="/globalassets/home/ucits/home/_homepage-new/vaneck-top-performers-eu.jpg" alt="Trending"/>
+        <div class="mt-3">
+                <div class="fundlist-block__heading">Trending</div>
+            <div class="fundlist-block__cta mt-3">
+                        <a class="cta-link fundlist-block__cta-item" href="/de/en/investments/gold-miners-etf/" target="_blank">
+                            <span class="">
+                                VanEck Gold Miners UCITS ETF
+                            </span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                            </svg>
+                        </a>
+                        <a class="cta-link fundlist-block__cta-item" href="/de/en/investments/junior-gold-miners-etf/" target="_blank">
+                            <span class="">
+                                VanEck Junior Gold Miners UCITS ETF
+                            </span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                            </svg>
+                        </a>
+                        <a class="cta-link fundlist-block__cta-item" href="/de/en/investments/global-moat-etf/" target="_blank">
+                            <span class="">
+                                VanEck Morningstar Global Wide Moat UCITS ETF
+                            </span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                            </svg>
+                        </a>
+                        <a class="cta-link fundlist-block__cta-item" href="/de/en/investments/europe-etf/" target="_blank">
+                            <span class="">
+                                VanEck European Equal Weight Screened UCITS ETF
+                            </span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                            </svg>
+                        </a>
+                        <a class="cta-link fundlist-block__cta-item" href="/de/en/investments/defense-etf/" target="_blank">
+                            <span class="">
+                                VanEck Defense UCITS ETF
+                            </span>
+                            <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path>
+                            </svg>
+                        </a>
+            </div>
+        </div>
+    </div>
+        </div>
+    </section>
+</div><div class="my-5">
+
+    <section>
+            <h2 class="mb-4">Insights</h2>
+        <div class="insights-grid ve-dynamic-related-media first-load-only " data-category="" data-tag="" data-count="3" data-insightsType="Blog" data-template="insights-grid" data-sitecontext="Ucits" data-lang="en">
+            <div class="row draw-area">
+            </div>
+            <div class="text-center mt-4 view-more hide">
+
+            </div>
+        </div>
+    </section>
+    <script>
+        window.veDictionary = typeof(veDictionary) === "undefined" ? {} : veDictionary;
+        veDictionary.allFormats = "All Formats";
+        veDictionary.viewMore = "View More";
+        veDictionary.allInsights = "All Insights";
+        veDictionary.noCategories = "Sorry, there are no insights at this time.";
+        veDictionary.noCategoriesVisit = "Sorry, there are no {0} {1} at this time. Come back and visit for future {2}.";
+        veDictionary.noCategoriesAtThisTime = "Sorry, there are no {0} insights at this time.";
+    </script>
+</div><div class="my-5">
+
+            <ve-recommendations-block class="" id="" data-section="" data-blockid="284607" data-pageid="4294" data-template="">
+            </ve-recommendations-block>
+</div><div class="my-5">
+<div class="bg-light-blue enable-bg-image p-3 newsletter-ucits-block">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h3 class="mb-0">Subscribe to our Monthly Newsletter</h3>
+            </div>
+            <div class="col-lg-6">
+                <form class="row" id="subscribeNewsletterForm">
+                    <div class="Form__Element FormTextbox col-lg-6 my-2">
+                        <label for="subscribeNewsletterInput" class="sr-only">
+                            Email
+                        </label>
+                        <input name="search-input" id="subscribeNewsletterInput" type="email" class="FormTextbox__Input form-control" placeholder="Enter your Email address" />
+                        <span class="error-message mt-1" style="display:none;">Invalid Email!</span>
+                    </div>
+                    
+                    <div class="col-lg-6 my-2">
+                        <button type="submit" class="btn btn-primary w-100">Subscribe Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div><div class="my-5">
+
+    <section class="remove-parent-margin mt-5 remove-bottom-margin mb-5">
+        <div class="content-block">
+            <div class="row">
+                <div class="col ">
+                    <h2>
+                        Challenging the Mainstream
+                    </h2>
+                    <div class="rich-text-block mt-4">
+                        <style>
+.remove-bottom-margin.mb-5{
+	margin-bottom:0px !important;
+}
+</style>
+<p>The world changes too much to leave investments on auto-pilot, so our goal is to challenge you to re-think your portfolio. For nearly 70 years, VanEck has built forward-looking, intelligently designed solutions. We see beyond today&rsquo;s financial markets to identify the trends that will fuel investable opportunities before they become mainstream.<br /><br /></p>
+<a class="cta-link text-util-md" href="/ucits/our-firm/mission-and-history" target="_blank" rel="noopener"><span class="cta-link__text text-util-md">GET TO KNOW VANECK<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path fill="currentColor" d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z"></path></svg> </span></a>
+                    </div>
+                </div>
+                <figure class="col-lg-6 mt-4 mt-lg-0 ">
+                    <img  class="img-fluid w-100" src="/globalassets/home/ucits/home/_homepage-new/hompage12.07.24.webp" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+</div><div class="my-5">
+
+    <div class=" d-md-none remove-parent-margin my-3" id="">
+<hr style="margin-bottom: 0px; margin-top: 0px;" />        
+
+    </div>
+</div><div class="my-5">
+    <section class="remove-parent-margin pt-lg-4" id="" data-originalid="">
+            <h2 class="mb-3">VanEck Today</h2>
+        <div>
+
+
+    <div class=" " id="">
+<div class="mt-lg-4">With $118.4 billion in assets under management, VanEck offers exchange-traded funds (ETFs), mutual funds and separately managed accounts.</div>
+<div class="mt-3 text-md-center"><strong>Headquartered in New York, with offices and local product offerings in Europe, Australia, Asia and Latin America. </strong></div>        
+
+    </div>
+
+
+
+<div class=" map-content-wrapper my-3 d-none d-md-block">
+    <img class="bg-map" src="/globalassets/home/ucits/home/_homepage-new/map-webp/map_en.webp" alt="world map" />
+        <div class="marker new-york">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>New York</h3>
+                <div class="text-center"><p>Email: <a href="mailto:info@vaneck.com">info@vaneck.com</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker amsterdam">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>Amsterdam</h3>
+                <div class="text-center"><p>Email: <a href="mailto:nlinfo@vaneck.com">nlinfo@vaneck.com</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker frankfurt">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>Frankfurt</h3>
+                <div class="text-center"><p>Email: <a href="mailto:deinfo@vaneck.com">deinfo@vaneck.com</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker zurich">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>Zurich</h3>
+                <div class="text-center"><p>Email: <a href="mailto:EMEAinfo@vaneck.com">EMEAinfo@vaneck.com</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker shanghai">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>Shanghai</h3>
+                <div class="text-center"><p>Email: <a href="mailto:pye@vaneck.com">pye@vaneck.com</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker sydney">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>Sydney</h3>
+                <div class="text-center"><p>Email: <a href="mailto:info@vaneck.com.au">info@vaneck.com.au</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker tampa">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>Tampa</h3>
+                <div class="text-center"><p>5100 W Kennedy Blvd, Tampa, FL 33609</p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker milan">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>Milan</h3>
+                <div class="text-center"><p>Email: <a href="mailto:EMEAinfo@vaneck.com">EMEAinfo@vaneck.com</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker madrid">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>Madrid</h3>
+                <div class="text-center"><p>Email: <a href="mailto:EMEAinfo@vaneck.com">EMEAinfo@vaneck.com</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+        <div class="marker london">
+            <div class="marker-content" style="visibility:hidden;">
+                <h3>London</h3>
+                <div class="text-center"><p>Email: <a href="mailto:EMEAinfo@vaneck.com">EMEAinfo@vaneck.com</a></p></div>
+            </div>
+            <div class="country-name-overlay"></div>
+        </div>
+</div>
+
+<div class=" map-content-wrapper-mobile my-3 d-md-none">
+    <img class="bg-map" src="/globalassets/home/ucits/home/_homepage-new/map-webp/map_en.webp" alt="world map" />
+    <div class="horizontally-scrollable-list d-flex justify-content-between position-relative flex-nowrap w-100 mt-3">
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-new-york" class="scrollable-item px-3 py-2 text-nowrap">New York</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-amsterdam" class="scrollable-item px-3 py-2 text-nowrap">Amsterdam</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-frankfurt" class="scrollable-item px-3 py-2 text-nowrap">Frankfurt</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-zurich" class="scrollable-item px-3 py-2 text-nowrap">Zurich</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-shanghai" class="scrollable-item px-3 py-2 text-nowrap">Shanghai</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-sydney" class="scrollable-item px-3 py-2 text-nowrap">Sydney</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-tampa" class="scrollable-item px-3 py-2 text-nowrap">Tampa</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-milan" class="scrollable-item px-3 py-2 text-nowrap">Milan</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-madrid" class="scrollable-item px-3 py-2 text-nowrap">Madrid</div>
+            </div>
+            <div class="scrollable-item-wrapper position-relative">
+                <div data-location-tab-topic="location-tab-london" class="scrollable-item px-3 py-2 text-nowrap">London</div>
+            </div>
+    </div>
+
+        <div id="location-tab-new-york" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:info@vaneck.com">info@vaneck.com</a></p></div>
+            </div>
+        </div>
+        <div id="location-tab-amsterdam" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:nlinfo@vaneck.com">nlinfo@vaneck.com</a></p></div>
+            </div>
+        </div>
+        <div id="location-tab-frankfurt" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:deinfo@vaneck.com">deinfo@vaneck.com</a></p></div>
+            </div>
+        </div>
+        <div id="location-tab-zurich" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:EMEAinfo@vaneck.com">EMEAinfo@vaneck.com</a></p></div>
+            </div>
+        </div>
+        <div id="location-tab-shanghai" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:pye@vaneck.com">pye@vaneck.com</a></p></div>
+            </div>
+        </div>
+        <div id="location-tab-sydney" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:info@vaneck.com.au">info@vaneck.com.au</a></p></div>
+            </div>
+        </div>
+        <div id="location-tab-tampa" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>5100 W Kennedy Blvd, Tampa, FL 33609</p></div>
+            </div>
+        </div>
+        <div id="location-tab-milan" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:EMEAinfo@vaneck.com">EMEAinfo@vaneck.com</a></p></div>
+            </div>
+        </div>
+        <div id="location-tab-madrid" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:EMEAinfo@vaneck.com">EMEAinfo@vaneck.com</a></p></div>
+            </div>
+        </div>
+        <div id="location-tab-london" class="scrollable-item-content d-none pt-4 flex-column justify-content-center">
+            <div class="address text-center">
+                <div class="text-center"><p>Email: <a href="mailto:EMEAinfo@vaneck.com">EMEAinfo@vaneck.com</a></p></div>
+            </div>
+        </div>
+</div>
+    <section class="hero-nav-item anchored-block" id="Mission-and-Facts" data-originalid="Mission-and-Facts" >
+        <div>
+
+    <section class="pb-3  ucits-cards flex-center" id="" data-originalid="" >
+        <div class="row">
+
+
+
+<div class="col-lg-4 col-md-6 mt-3">
+
+    <div data-ve-gtm="container-fund-item promo-card" class="card fund-card  fund-card--dark " style="background-image:url(/globalassets/home/us/common/abstract-card-background-dark.svg)">
+        <div data-ve-gtm="item-ticker" class="fund-card__ticker"><div style="text-align: center;">Since 1955</div></div>
+        <div data-ve-gtm="item-fund-name" class="fund-card__name">
+                <div><br />
+<div style="text-align: center;">Leading global investment manager with forward-looking, intelligently designed solutions</div></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="col-lg-4 col-md-6 mt-3">
+
+    <div data-ve-gtm="container-fund-item promo-card" class="card fund-card  fund-card--dark " style="background-image:url(/globalassets/home/us/common/abstract-card-background-dark.svg)">
+        <div data-ve-gtm="item-ticker" class="fund-card__ticker"><div style="text-align: center;">$118.4 billion</div></div>
+        <div data-ve-gtm="item-fund-name" class="fund-card__name">
+                <div><br />
+<div style="text-align: center;">In assets under management globally</div></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="col-lg-4 col-md-6 mt-3">
+
+    <div data-ve-gtm="container-fund-item promo-card" class="card fund-card  fund-card--dark " style="background-image:url(/globalassets/home/us/common/abstract-card-background-dark.svg)">
+        <div data-ve-gtm="item-ticker" class="fund-card__ticker"><div style="text-align: center;">First Mover in ETFs</div></div>
+        <div data-ve-gtm="item-fund-name" class="fund-card__name">
+                <div><br />
+<div style="text-align: center;">semiconductors, defense, E-sports &amp; video gaming, bionics, rare earths, nuclear (in Europe)</div></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="col-lg-4 col-md-6 mt-3">
+
+    <div data-ve-gtm="container-fund-item promo-card" class="card fund-card  fund-card--dark " style="background-image:url(/globalassets/home/us/common/abstract-card-background-dark.svg)">
+        <div data-ve-gtm="item-ticker" class="fund-card__ticker"><div style="text-align: center;">Global</div></div>
+        <div data-ve-gtm="item-fund-name" class="fund-card__name">
+                <div><br />
+<div style="text-align: center;">Offices in New York, Tampa, Frankfurt, Zurich, Amsterdam, London, Milan, Madrid, Sydney and Shanghai</div></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="col-lg-4 col-md-6 mt-3">
+
+    <div data-ve-gtm="container-fund-item promo-card" class="card fund-card  fund-card--dark " style="background-image:url(/globalassets/home/us/common/abstract-card-background-dark.svg)">
+        <div data-ve-gtm="item-ticker" class="fund-card__ticker"><div style="text-align: center;">>100 ETFs</div></div>
+        <div data-ve-gtm="item-fund-name" class="fund-card__name">
+                <div><br />
+<p style="text-align: center;">Comprehensive global portfolio covering numerous sectors and asset classes</p></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="col-lg-4 col-md-6 mt-3">
+
+    <div data-ve-gtm="container-fund-item promo-card" class="card fund-card  fund-card--dark " style="background-image:url(/globalassets/home/us/common/abstract-card-background-dark.svg)">
+        <div data-ve-gtm="item-ticker" class="fund-card__ticker"><div style="text-align: center;">Privately Held</div></div>
+        <div data-ve-gtm="item-fund-name" class="fund-card__name">
+                <div><br />
+<p style="text-align: center;">Allowing us to focus on our clients&rsquo; long-term interests</p></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <div class=" container pt-3 text-muted text-util-sm" id="">
+As of 30/04/2025<hr class="" />        
+
+    </div>
+        </div>
+    </section>
+        </div>
+    </section>
+        </div>
+    </section>
+</div><div class="my-5">
+    <section class="remove-parent-margin hero-nav-item" id="VanEck-Team" data-originalid="VanEck-Team" >
+        <div class=" text-black px-lg-5">
+
+    <div class="py-lg-3 multi-product-content">
+        <div><h2 class="text-lg-center pt-md-3">VanEck Team</h2></div>
+    <div class=" carousel-block" id="" >
+        <div class="carousel-block__heading h3">
+            
+        </div>
+        <div class="carousel-block__main carousel-block__main--desktop-ucits d-none" data-slides-to-show="3">
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/martijn-rozemuller-about-vaneck.png'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">"ETFs have democratized access to the market, enabling investors of all sizes to build diversified portfolios"</h3>
+                    <div class="image-card__text-description"><p>Martijn Rozemuller, CEO Europe</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/home/_homepage-new/team-headshots/florian-korner.webp'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">"Seeing our clients reach their financial goals is one of our best rewards"</h3>
+                    <div class="image-card__text-description"><p>Florian K&ouml;rner, Head Sales, Germany and Austria</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/manuela-waldow-about-vaneck.jpg'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">“Excellence is at the heart of everything we do. Our clients are not just served, they are valued.”</h3>
+                    <div class="image-card__text-description"><p>Manuela Waldow, Director, Client Services &amp; Sales Support</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/jan-van-eck-about-vaneck.png'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">"Don’t settle for the conventional. Dare to be different"</h3>
+                    <div class="image-card__text-description"><p>Jan van Eck, CEO</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/dominik-schmaus-about-vaneck.png'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">"ETFs allow investors to participate in innovative industries in a cost-effective and flexible way"</h3>
+                    <div class="image-card__text-description"><p>Dominik Schmaus, Associate Director, Sales and Business Development</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/torsten-hunke-about-vaneck.jpg'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">“ETFs diversify and lower reliance on individual stocks”</h3>
+                    <div class="image-card__text-description"><p>Torsten Hunke, MD, Head of Legal &amp; Compliance Europe</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/sabrina-giagheddu-about-vaneck.png'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">"Every ESG investment is a step towards the world we want to live in"</h3>
+                    <div class="image-card__text-description"><p>Sabrina Giagheddu, Senior Legal Counsel</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/kamil-sudiyarov-about-vaneck.png'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">“ETFs continue to gain popularity as a cost-effective, transparent and flexible investment vehicle”</h3>
+                    <div class="image-card__text-description"><p>Kamil Sudiyarov, Product Manager</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/dmitrii-ponomarev-about-vaneck.png'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">"ETFs empower investors to expand their portfolios and reach new heights in their financial journey"</h3>
+                    <div class="image-card__text-description"><p>Dmitrii Ponomarev, Product Manager</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/nibha-ritter-about-vaneck.jpg'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">“The rise of passive investing seems unstoppable, driven by ETFs' transparency, efficiency, and flexibility”</h3>
+                    <div class="image-card__text-description"><p>Nibha Ritter, VP, Marketing Manager</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/gijs-koning-about-vaneck.png'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">“In the world of ETFs, the devil is in the details. Attention to each aspect ensures quality”</h3>
+                    <div class="image-card__text-description"><p>Gijs Koning, COO Europe</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/aaron-renkers-about-vaneck-v1.jpg'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">“Our goal is to challenge you to re-think your portfolio”</h3>
+                    <div class="image-card__text-description"><p>Aaron Renkers, Head of Investments</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="mx-md-2">
+            <div class="image-card" style="background-image:url('/globalassets/home/ucits/theme/about-vaneck/vaneck-team/floor-klarenbeek-about-vaneck.png'); background-size:cover;">
+                <div class="image-card__text">
+                    <h3 class="image-card__text-heading">“ETF trading offers flexibility but requires careful consideration”</h3>
+                    <div class="image-card__text-description"><p>Floor Klarenbeek, Head of Capital Markets Europe</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+</div></div>
+
+
+
+
+
+
+
+        </div>
+        
+        
+    </main>
+    <div class="bs4-nav">
+        <footer class="site-footer">
+            <nav aria-label="Footer" class="site-footer__nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="logo-content-wrapper text-left">
+                    <img src="/globalassets/home/ucits/home/icons/logo-white.svg" alt="vaneck-logo" loading="lazy">
+                    <div class="mt-3 description w-75">
+                        VanEck's guiding principle is to provide investors with access to opportunities that strengthen their portfolios. Through forward-looking, intelligently designed active and ETF solutions, we offer value-added exposures to emerging industries, asset classes and markets as well as differentiated approaches to traditional strategies.
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none container mx-3 mt-4 mb-0 border-light" />
+            <div class="col-md-6 newsletter-social-links">
+                <div class="newsletter-content-wrapper pl-lg-5">
+                    <div class="newsletter-form-title text-left mt-4">Signup to Our Newsletter</div>
+                    <form id="socialNewsletterForm">
+                        <div class="Form__Element FormTextbox my-2">
+                            <label for="newsletterSocialInput" class="sr-only">
+                                Email
+                            </label>
+                            <input name="newsletter-input" id="newsletterSocialInput" type="email"
+                                   class="FormTextbox__Input form-control" placeholder="Enter your Email address" />
+                            <button type="submit" aria-label="Newsletter Submit Button">
+                                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right"
+                                     class="svg-inline--fa fa-angle-right fa-w-16 fa-lg cta-link__icon align-middle"
+                                     role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                          d="M10 7.25a.75.75 0 00-.53.22.75.75 0 000 1.06L12.94 12l-3.47 3.47a.75.75 0 000 1.06.75.75 0 001.06 0l4-4a.75.75 0 000-1.06l-4-4a.75.75 0 00-.52-.22z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="error-message mt-1 text-left" style="display:none;">Invalid Email!</span>
+                    </form>
+                    <ul class="site-footer__nav-list mt-4">
+                        
+    <li class="site-footer__nav-list-item privacy hideTablet footer_hide_li" data-ve-gtm="footer-nav">
+        <a class="site-footer__nav-link text-util-md" href="/">Home</a>
+    </li>
+    <li class="site-footer__nav-list-item privacy hideTablet footer_hide_li" data-ve-gtm="footer-nav">
+        <a class="site-footer__nav-link text-util-md" href="/de/en/contact/">Contact</a>
+    </li>
+    <li class="site-footer__nav-list-item privacy footer_hide_li" data-ve-gtm="footer-nav">
+        <a class="site-footer__nav-link text-util-md" href="/de/en/privacy-policy/">Privacy Policy</a>
+    </li>
+    <li class="site-footer__nav-list-item legal hideTablet footer_hide_li" data-ve-gtm="footer-nav">
+        <a class="site-footer__nav-link text-util-md" href="/de/en/terms-and-conditions/">Terms and Conditions</a>
+    </li>
+    <li class="site-footer__nav-list-item legal hideTablet footer_hide_li" data-ve-gtm="footer-nav">
+        <a class="site-footer__nav-link text-util-md" href="/de/en/imprint/">Imprint</a>
+    </li>
+
+                        <li class="site-footer__nav-list-item privacy hideTablet footer_hide_li" data-ve-gtm="footer-nav">
+                            <a class="site-footer__nav-link text-util-md" href="#"
+                               onclick="UC_UI.showSecondLayer();">Privacy Settings</a>
+                        </li>
+                        <li class="d-md-none border-top border-light my-3"></li>
+                        <li>
+                            <div class="newsletter-social-links__wrapper justify-content-between">
+                                <a class="newsletter-social-links__item" href="http://www.facebook.com/" target="_blank">
+                                    <img height="24" width="24" src="/globalassets/home/ucits/home/icons/facebook.svg"
+                                         alt="facebook" loading="lazy">
+                                </a>
+                                <a class="newsletter-social-links__item" href="http://www.instagram.com/" target="_blank">
+                                    <img height="24" width="24" src="/globalassets/home/ucits/home/icons/instagram.svg"
+                                         alt="instagram" loading="lazy">
+                                </a>
+                                <a class="newsletter-social-links__item" href="https://twitter.com/vaneck_eu" target="_blank">
+                                    <img height="24" width="24" src="/globalassets/home/ucits/home/icons/twitter.svg"
+                                         alt="twitter" loading="lazy">
+                                </a>
+                                <a class="newsletter-social-links__item" href="https://www.youtube.com/vaneck-europe" target="_blank">
+                                    <img height="24" width="24" src="/globalassets/home/ucits/home/icons/youtube.svg"
+                                         alt="youtube" loading="lazy">
+                                </a>
+                                <a class="newsletter-social-links__item" href="https://www.linkedin.com/company/vaneck-europe/" target="_blank">
+                                    <img height="24" width="24" src="/globalassets/home/ucits/home/icons/linkedin.svg"
+                                         alt="linkedin" loading="lazy">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+            <div class="site-footer__content" style="display:flex">
+                <div class="container">
+                    <div class="site-footer__body">
+
+                    </div>
+
+                    
+    
+<div><div>
+
+    <div class=" " id="">
+<div class="disclaimer disclaimer-home">
+<p><strong> Important Disclosure </strong>          </p>
+<p><strong> This is a marketing communication. Please refer to the prospectus of the UCITS and to the KID before making any final investment decisions.</strong></p>
+<p>Information contained in this website does not constitute any legal or investment advice. This website does not constitute an offer to sell or solicitation to buy any security, including shares of any investment fund promoted on this website and other financial instrument, products or services sponsored by any VanEck affiliates ("VanEck").</p>
+<p>VanEck constructs and issues the investment funds but does not give any financial advice to private investors or accept client funds. VanEck provides financial services (e.g. financial advice) only to professional clients according to the detailed definition in the Terms and Conditions of this website. For questions regarding investing or trading please contact your advisor, brokerage or bank. If you have technical questions regarding our investment funds, please contact us.</p>
+<p>An investment in the promoted investment funds may only be made based on the investment fund’s official sales prospectus, the relevant supplement and KID and will be subject to the terms and conditions contained therein.</p>
+<p>You can lose money by investing in the Funds. The value of the investments may go up or down and the investor may not get back the amount invested. Past performance is not a guide to future performance and should not be the sole factor of consideration when selecting a product. Any investment in a fund should be part of an overall investment program, not a complete program. An investor should consider investment objectives, risks, charges, and expenses of the investment carefully before investing.</p>
+<p>Investment fund investing involves risk, including possible loss of principal. Investors should consult the prospectus and key information document ("KID") before subscribing to any fund. The prospectus, the key information documents and the financial reports can be obtained free of charge from this website and upon request from the funds’ registered office and the offices of all local information agents. The documents, except for KIDs, are only available in English and certain other languages as applicable.</p>
+<p>Performance data for the Irish domiciled funds is displayed on a Net Asset Value basis, in Base Currency terms, with net income reinvested, net of fees. Brokerage or transaction fees will apply. Performance data for the Dutch domiciled ETFs include income distributions gross of Dutch withholding tax, net of fees and assume that the Dutch dividend withholding tax levied from the dividend payment of the ETF will be deducted or reclaimed with the Dutch tax authority and is reinvested. Different investor types and investors from other jurisdictions may not be able to achieve the same level of performance due to their tax status and local tax rules. Brokerage or transaction fees will apply. The Dutch domiciled ETFs use a gross reinvestment index. Please note that the performance includes income distributions gross of Dutch withholding tax because Dutch investors deduct or reclaim the 15% Dutch withholding tax levied. Different investor types and investors from other jurisdictions may not be able to achieve the same level of performance due to their tax status and local tax rules. For more information please be referred to the respective fund’s performance section on this website.</p>
+<p>The sales prospectus and KID contain this and other information. Please read the sales prospectus and KID carefully before investing.</p>
+<p>Not Insured — No Bank Guarantee — May Lose Value</p>
+</div>        
+
+    </div>
+</div></div>
+
+
+
+                    <div class="copyRightFooter">
+                        
+<style>
+.bs4-nav .navbar::before, .bs4-nav .navbar::after, .bs4-nav .container::before, .bs4-nav .container::after {
+    content: " ";
+    display: table;
+}
+.bs4-nav .tab-content .menu-remove-spacing > .row{max-height: 37rem!important;}
+@media (max-width: 1020px) and (min-width: 992px) {
+.bs4-nav .tab-content .menu-remove-spacing > .row{max-height: 50rem!important;}
+}
+.bs4-nav .site-header__submenu-inner .hover-tabs .tabs__content.tab-content {
+    max-height: calc(100vh - 236px); /*236px = allowance for sticker header + top portion of investments menu. */
+    overflow: hidden;
+    overflow-y: auto;
+}
+.broker-image-onvista .broker-clickout__broker-image, .broker-image-Interactive .broker-clickout__broker-image, .broker-image-Commerzbank  .broker-clickout__broker-image{
+height:62px !important
+}
+li:has(.broker-image-onvista) {margin:5px 0px !important}
+li:has(.broker-image-Commerzbank) {margin:5px 0px !important}
+li:has(.broker-image-Interactive) {margin:5px 0px !important}
+.broker-image-SCALABLE .broker-clickout__broker-image{
+height:62px !important
+}
+li:has(.broker-image-SCALABLE) {margin:5px 0px !important}
+.broker-image-Consorsbank .broker-clickout__broker-image{
+height:62px !important;
+width:50% !important;
+}
+li:has(.broker-image-Consorsbank) {margin:5px 0px !important}
+.sustainability-disclosure{width: 300px;float: none!important;display: inline-block!important;}
+@media screen and (max-width: 768px) {
+.sustainability-disclosure{width: 100%;}
+}
+</style>
+<script>
+	//Temp fix for the cookie disclaimer
+	window.addEventListener("load", function() {
+		if (typeof displayCookiePopup != "function")
+		{
+        	$.ajax({ dataType: "script", cache: true, url: "/static/js/eu/cookie-disclaimer.js"})
+		}
+	});
+</script>
+
+
+
+<p>Web Access Notice: VanEck is committed to ensuring accessibility of its website for investors and potential investors, including those with disabilities. If you have difficulty accessing any feature or functionality on the VanEck website, please feel free to email us at <a style="color: white;" href="mailto:info@vaneck.com" target="_blank" rel="noopener">info@vaneck.com</a> for assistance.</p>
+
+<p><br /><br /></p>
+<p>&copy;<copyright-year>2025</copyright-year>&nbsp;VanEck<sup>&reg;</sup>, VanEck Access the opportunities<sup>&reg;</sup>&nbsp;and the stylized VanEck<sup>&reg;</sup>&nbsp;design are trademarks of Van Eck Associates Corp.</p>
+<script type="text/javascript">
+var items = document.documentElement.attributes["lang"].value.split("-");
+var language = items[0];
+var country = items[1].toLowerCase();
+var elements = document.querySelectorAll(".prices [href^='/ucits'],.fund_returns_table_prices_etf [href^='/ucits']");
+if (elements !== null)
+{
+	if(country === "gb") {
+    	country = "uk";
+    }
+    for (var i = 0; i < elements.length; ++i) {
+    	var element = elements[i];
+        var newHref = element.attributes["href"].value.replace("ucits", country+"/"+language);
+        element.attributes["href"].value = newHref;
+    }
+}
+</script>
+                    </div>
+
+
+                    <div class="site-footer__legal">
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+
+    <div id="popupDialog" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="modal-spinner"></div>
+                </div>
+                <div class="modal-footer disclaimerpop"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+        <script src="/static/eu/js/dist/main.js"></script>
+        <script src="/static/ReactApps/ReactEU/dist/bundle.js"></script>
+    <script type='text/plain' data-usercentrics='Marketo'>function initVeMarketoScripts() {jQuery.getScript('/bundles/scripts/marketo.js').done(function() {Munchkin.init('410-XOR-673');})}if (document.readyState === "loading") {    document.addEventListener("DOMContentLoaded", initVeMarketoScripts);  } else {  initVeMarketoScripts();  }</script>
+    
+
+    <script src="/bundles/scripts/partial-views-bundle.js"></script>
+    <script defer="defer" src="/Util/Find/epi-util/find.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}})
+</script>
+
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+STOCK PRICES EXTRACTION LOG
+==================================================
+Run Date: 2025-05-29 01:16:09
+Script: excel_stock_updater.py
+
+SHARE PRICE ERRORS BY DOMAIN (RANKED - MOST ERRORS FIRST):
+------------------------------------------------------------
+No errors encountered!
+
+INVALID PRICE VALUES BY DOMAIN (RANKED - MOST INVALID PRICES FIRST):
+---------------------------------------------------------------------------
+Total invalid prices found: 0
+(These are likely incorrect - .0 values, dates, percentages, fund metadata, etc. instead of actual prices)
+(Includes ALL .0 values: 24.00, 30.0, etc. - Excludes blue cells)
+
+No invalid prices found!
+
+BLUE CELLS SECTION (EXCLUDED FROM SUCCESS RATE):
+--------------------------------------------------
+Total blue cells: 0
+No blue cells found.
+
+NORMAL CELLS SECTION (USED FOR SUCCESS RATE):
+--------------------------------------------------
+Total normal cells: 375
+Normal cells successful: 375
+Normal cells with errors: 0
+Normal cells with invalid prices (treated as errors): 0
+Normal cells success rate: 375/375 = 100.00%
+(Success rate excludes both errors and invalid prices)
+
+SUMMARY:
+----------
+Total URLs processed: 375
+Blue cells (excluded from success rate): 0
+Normal cells (used for success rate): 375
+Successful extractions (normal cells only): 375
+URLs with invalid prices: 0
+Traditional errors: 0
+FINAL SUCCESS RATE: 375/375 = 100.00%
+(Excludes blue cells, traditional errors, AND invalid prices)

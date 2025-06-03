@@ -1,0 +1,12 @@
+2025-05-28 21:25:12,637 - INFO - ============================================================
+2025-05-28 21:25:12,637 - INFO - Excel stock prices Log Analyzer
+2025-05-28 21:25:12,637 - INFO - ============================================================
+2025-05-28 21:25:12,638 - INFO - Analyzing file: data/Custodians_Results.xlsx
+2025-05-28 21:25:12,638 - INFO - Analyzing data/Custodians_Results.xlsx for stock price data
+2025-05-28 21:25:12,721 - INFO - Using 'Non-derivative exposures' sheet
+2025-05-28 21:25:12,722 - INFO - Found 375 rows with URLs
+2025-05-28 21:25:12,723 - INFO - Row 2: Price data found: share price: 6.7456
+2025-05-28 21:25:12,723 - INFO - Row 3: Price data found: share price: 1.4284
+2025-05-28 21:25:12,723 - INFO - Row 4: Price data found: share price: 1.2552
+2025-05-28 21:25:12,724 - INFO - Row 5: Price data found: share price: 0.7701
+2025-05-28 21:25:12,724 - INFO - Row 6: Price data found: share price: 1.1873

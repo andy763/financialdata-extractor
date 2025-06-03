@@ -1,0 +1,32 @@
+STOCK PRICES EXTRACTION LOG
+==================================================
+Run Date: 2025-05-28 21:36:25
+Script: generate_logs.py (stock prices)
+
+SHARE PRICE ERRORS BY DOMAIN (RANKED - MOST ERRORS FIRST):
+------------------------------------------------------------
+
+BLUE CELLS SECTION (EXCLUDED FROM SUCCESS RATE):
+--------------------------------------------------
+Total blue cells: 0
+No blue cells found.
+
+NORMAL CELLS SECTION (USED FOR SUCCESS RATE):
+--------------------------------------------------
+Total normal cells: 379
+Normal cells successful: 379
+Normal cells with errors: 0
+Normal cells with invalid prices (treated as errors): 0
+Normal cells success rate: 379/379 = 100.00%
+(Success rate excludes both errors and invalid prices)
+
+SUMMARY:
+----------
+Total URLs processed: 379
+Blue cells (excluded from success rate): 0
+Normal cells (used for success rate): 379
+Successful extractions (normal cells only): 379
+URLs with invalid prices: 0
+Traditional errors: 0
+FINAL SUCCESS RATE: 379/379 = 100.00%
+(Excludes blue cells, traditional errors, AND invalid prices)

@@ -1,0 +1,78 @@
+STOCK PRICES EXTRACTION LOG
+==================================================
+Run Date: 2025-05-24 23:05:34
+Script: excel_stock_updater.py
+
+SHARE PRICE ERRORS BY DOMAIN (RANKED - MOST ERRORS FIRST):
+------------------------------------------------------------
+ 10 errors: https://www.lafv.li/
+  9 errors: https://www.grayscale.com/
+  5 errors: https://www.wisdomtree.eu/
+  5 errors: https://www.morningstar.fr/
+  4 errors: https://augmentasicav.com/
+  3 errors: https://www.franklintempleton.com/
+  2 errors: https://www.invesco.com/
+  2 errors: https://etf.dws.com/
+  2 errors: https://issuance.swiss/
+  2 errors: https://www.boerse-stuttgart.de/
+  2 errors: https://www.tobam.fr/
+  2 errors: https://bitcap.com/
+  2 errors: https://www.incrementum.li/
+  2 errors: https://www.morningstar.be/
+  2 errors: https://www.abraxascm.com/
+  2 errors: https://qrasset.com.br/
+  1 errors: https://www.hashdex.com/
+  1 errors: https://bitwiseinvestments.com/
+  1 errors: https://www.vestfin.com/
+  1 errors: https://www.yieldmaxetfs.com/
+  1 errors: https://deutschedigitalassets.com/
+  1 errors: https://melanion.com/
+  1 errors: https://www.union-investment.de/
+  1 errors: https://www.bny.com/
+  1 errors: https://postera.io/
+  1 errors: https://www.3commacapital.com/
+  1 errors: https://aifmgroup.com/
+  1 errors: https://europe.ark-funds.com/
+  1 errors: https://www.itnow.com.br/
+  1 errors: https://aix.kz/
+  1 errors: https://www.purposeinvest.com/
+  1 errors: https://www.3iq.io/
+  1 errors: https://wavegp.com/
+  1 errors: https://doc.morningstar.com/
+  1 errors: https://www.fidelity.ca/
+  1 errors: https://markets.businessinsider.com/
+
+BLUE CELLS SECTION (EXCLUDED FROM SUCCESS RATE):
+--------------------------------------------------
+Total blue cells: 26
+Blue cells successful: 25
+Blue cells with errors: 1
+Blue cells success rate: 25/26 = 96.15%
+
+Blue cell details:
+  Row 97: ❌ Error - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 98: ✅ Success - https://www.wisdomtree.eu/de-ch/products/ucits-etfs-unlevera...
+  Row 99: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 100: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 101: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 102: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 103: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 104: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  Row 105: ✅ Success - https://www.wisdomtree.eu/de-de/products/ucits-etfs-unlevera...
+  Row 106: ✅ Success - https://www.wisdomtree.eu/en-gb/products/ucits-etfs-unlevera...
+  ... and 16 more blue cells
+
+NORMAL CELLS SECTION (USED FOR SUCCESS RATE):
+--------------------------------------------------
+Total normal cells: 348
+Normal cells successful: 269
+Normal cells with errors: 79
+Normal cells success rate: 269/348 = 77.30%
+
+SUMMARY:
+----------
+Total URLs processed: 374
+Blue cells (excluded from success rate): 26
+Normal cells (used for success rate): 348
+Successful extractions (normal cells only): 269
+FINAL SUCCESS RATE: 269/348 = 77.30%

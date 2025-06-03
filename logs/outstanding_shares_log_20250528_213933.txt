@@ -1,0 +1,86 @@
+OUTSTANDING SHARES EXTRACTION LOG
+==================================================
+Run Date: 2025-05-28 21:39:33
+Script: generate_logs.py (outstanding shares)
+
+OUTSTANDING SHARES ERRORS BY DOMAIN:
+----------------------------------------
+https://aifmgroup.com/ errors: 1
+https://aix.kz/ errors: 1
+https://am.eu.rothschildandco.com/ errors: 2
+https://aminagroup.com/ errors: 5
+https://amplifyetfs.com/ errors: 1
+https://augmentasicav.com/ errors: 8
+https://bitcap.com/ errors: 4
+https://bitwiseinvestments.com/ errors: 1
+https://coinshares.com/ errors: 1
+https://deutschedigitalassets.com/ errors: 1
+https://doc.morningstar.com/ errors: 1
+https://europe.ark-funds.com/ errors: 1
+https://evolveetfs.com/ errors: 2
+https://finanzen-crypto-etp.coinshares.com/ errors: 1
+https://finexetf.com/ errors: 1
+https://fondswelt.hansainvest.com/ errors: 1
+https://hashdex.com/ errors: 3
+https://horizonkinetics.com/ errors: 1
+https://issuance.swiss/ errors: 2
+https://live.euronext.com/ errors: 2
+https://markets.businessinsider.com/ errors: 2
+https://melanion.com/ errors: 1
+https://money.tmx.com/ errors: 9
+https://montpensier-arbevel.com/ errors: 3
+https://postera.io/ errors: 1
+https://qrasset.com.br/ errors: 4
+https://quantifyfunds.com/ errors: 2
+https://seb.se/ errors: 1
+https://valour.com/ errors: 13
+https://wavegp.com/ errors: 1
+https://www.3commacapital.com/ errors: 2
+https://www.abraxascm.com/ errors: 2
+https://www.ark-funds.com/ errors: 1
+https://www.betashares.com.au/ errors: 3
+https://www.bny.com/ errors: 1
+https://www.boerse-frankfurt.de/ errors: 25
+https://www.bxswiss.com/ errors: 4
+https://www.calamos.com/ errors: 3
+https://www.cboe.com/ errors: 5
+https://www.compamfund.com/ errors: 1
+https://www.dasinvestment.com/ errors: 1
+https://www.fidelity.ca/ errors: 1
+https://www.franklintempleton.com/ errors: 3
+https://www.grayscale.com/ errors: 9
+https://www.hal-privatbank.com/ errors: 1
+https://www.hashdex.com/ errors: 1
+https://www.incrementum.li/ errors: 2
+https://www.invesco.com/ errors: 2
+https://www.investsmart.com.au/ errors: 1
+https://www.itnow.com.br/ errors: 1
+https://www.lafv.li/ errors: 10
+https://www.londonstockexchange.com/ errors: 5
+https://www.morningstar.be/ errors: 3
+https://www.morningstar.co.uk/ errors: 1
+https://www.morningstar.fr/ errors: 5
+https://www.nasdaq.com/ errors: 7
+https://www.ninepoint.com/ errors: 1
+https://www.profunds.com/ errors: 3
+https://www.proshares.com/ errors: 10
+https://www.purposeinvest.com/ errors: 1
+https://www.rexshares.com/ errors: 5
+https://www.sygnum.com/ errors: 1
+https://www.tobam.fr/ errors: 2
+https://www.topfund.nl/ errors: 2
+https://www.union-investment.de/ errors: 1
+https://www.vaneck.com.au/ errors: 1
+https://www.vaneck.com/ errors: 13
+https://www.vestfin.com/ errors: 1
+https://www.wisdomtree.eu/ errors: 11
+https://www.yieldmaxetfs.com/ errors: 1
+invalid:// errors: 4
+
+SUMMARY:
+----------
+Total URLs processed: 379
+Blue cells (excluded from success rate): 0
+Successful extractions: 145
+Effective URLs for success calculation: 379
+Adjusted success rate: 145/379 = 38.26%

@@ -1,0 +1,22 @@
+STOCK PRICES EXTRACTION LOG
+==================================================
+Run Date: 2025-05-24 03:07:47
+Script: excel_stock_updater.py
+
+SHARE PRICE ERRORS BY DOMAIN:
+------------------------------
+https://aifmgroup.com/ errors: 1
+https://etf.dws.com/ errors: 2
+https://live.euronext.com/ errors: 2
+https://qrasset.com.br/ errors: 2
+https://www.fidelity.ca/ errors: 1
+https://www.grayscale.com/ errors: 9
+https://www.nasdaq.com/ errors: 1
+https://www.tobam.fr/ errors: 2
+invalid:// errors: 5
+
+SUMMARY:
+----------
+Total URLs processed: 371
+Successful extractions: 346
+Success rate: 346/371
