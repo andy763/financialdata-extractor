@@ -5,7 +5,7 @@ Simple test for remaining custom domain extractors
 
 import sys
 import os
-sys.path.append('src')
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 print("=" * 80)
 print("TESTING REMAINING CUSTOM DOMAIN EXTRACTORS")

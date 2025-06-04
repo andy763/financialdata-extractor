@@ -65,6 +65,7 @@ build/
 # Debug files
 html_debug/*
 !html_debug/.gitkeep
+!html_debug/*.html
 
 # C extensions
 *.so
