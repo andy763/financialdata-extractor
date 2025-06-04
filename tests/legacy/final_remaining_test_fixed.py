@@ -5,7 +5,7 @@ Test the remaining 5 custom domain extractors
 
 import sys
 import os
-sys.path.append('src')
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 # Set up Selenium WebDriver first
 from selenium import webdriver
