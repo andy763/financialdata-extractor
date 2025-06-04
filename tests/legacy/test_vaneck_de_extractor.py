@@ -37,7 +37,7 @@ def print_exception():
 
 try:
     # Import the custom extractor
-    sys.path.append('./src')
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
     from custom_domain_extractors import extract_vaneck_de_shares
     print("Successfully imported custom_domain_extractors")
 except Exception as e:
