@@ -1,0 +1,68 @@
+OUTSTANDING SHARES EXTRACTION LOG
+==================================================
+Run Date: 2025-06-04 01:39:53
+Script: outstanding_shares_updater.py
+
+OUTSTANDING SHARES ERRORS BY DOMAIN:
+----------------------------------------
+https://aifmgroup.com/ errors: 1
+https://am.eu.rothschildandco.com/ errors: 1
+https://aminagroup.com/ errors: 4
+https://augmentasicav.com/ errors: 8
+https://bitcap.com/ errors: 4
+https://bitwiseinvestments.com/ errors: 1
+https://cdn-blob.investsmart.com.au/ errors: 1
+https://deutschedigitalassets.com/ errors: 1
+https://doc.morningstar.com/ errors: 1
+https://finanzen-crypto-etp.coinshares.com/ errors: 1
+https://finexetf.com/ errors: 1
+https://fondswelt.hansainvest.com/ errors: 1
+https://idxfunds.com/ errors: 1
+https://issuance.swiss/ errors: 1
+https://markets.businessinsider.com/ errors: 2
+https://melanion.com/ errors: 1
+https://postera.io/ errors: 1
+https://qrasset.com.br/ errors: 4
+https://seb.se/ errors: 1
+https://valour.com/ errors: 3
+https://wavegp.com/ errors: 1
+https://www-aix-kz.s3.eu-central-1.amazonaws.com/ errors: 1
+https://www.3commacapital.com/ errors: 2
+https://www.3iq.io/ errors: 1
+https://www.abraxascm.com/ errors: 2
+https://www.boerse-frankfurt.de/ errors: 3
+https://www.compamfund.com/ errors: 1
+https://www.dasinvestment.com/ errors: 1
+https://www.hal-privatbank.com/ errors: 1
+https://www.incrementum.li/ errors: 2
+https://www.ishares.com/ errors: 1
+https://www.lafv.li/ errors: 10
+https://www.monochrome.au/ errors: 1
+https://www.morningstar.be/ errors: 2
+https://www.morningstar.co.uk/ errors: 1
+https://www.morningstar.fr/ errors: 5
+https://www.ninepoint.com/ errors: 1
+https://www.pandoasset.com/ errors: 2
+https://www.profunds.com/ errors: 3
+https://www.sygnum.com/ errors: 1
+https://www.tobam.fr/ errors: 2
+https://www.topfund.nl/ errors: 2
+https://www.tradingview.com/ errors: 6
+https://www.vestfin.com/ errors: 1
+
+EXTRACTION METHOD STATISTICS:
+------------------------------
+Custom: 153 (40.7%)
+Sixgroup: 51 (13.6%)
+Traditional: 41 (10.9%)
+Ai Fallback: 29 (7.7%)
+Failed: 92 (24.5%)
+Unknown: 10 (2.7%)
+
+SUMMARY:
+----------
+Total URLs processed: 376
+Blue cells (excluded from success rate): 0
+Successful extractions: 284
+Effective URLs for success calculation: 376
+Adjusted success rate: 284/376 = 75.53%

@@ -277,4 +277,5 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 ```
 
----
+---#   f i n a n c i a l d a t a - e x t r a c t o r  
+ 
